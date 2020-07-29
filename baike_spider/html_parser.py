@@ -8,11 +8,18 @@ from bs4 import BeautifulSoup
 import html_downloader
 
 
+def compare(url, file_name):
+    for line in open(file_name):
+        if line.strip('\n') == url:
+            return True
+    return False
+
+
 def get_content(news_content):
     # get the news info and  make it a string
     temp = ''
     for new in news_content:
-        temp = temp + new.get_text().replace('\n','')
+        temp = temp + new.get_text().replace('\n', '')
     if temp != '':
         return temp
     raise ValueError('content is None')
@@ -55,7 +62,7 @@ class HtmlParser(object):
 
         self.downloader = html_downloader.HtmlDownloader()
         res_data = {'url': page_url}
-        count = 100
+        count = 120
         # contain all news in current page
         res_urls = {}
         res_news = {}
@@ -63,26 +70,38 @@ class HtmlParser(object):
         summary_node = soup.find_all(href=re.compile(r'http(s?)(://)'))
         for n in summary_node:
             count = count - 1
-            if(count>=0):
-                html_cont = self.downloader.download(n['href'])
-                soup = BeautifulSoup(html_cont, 'html.parser', from_encoding='utf-8')
-                try:
-                    # search for content
-                    news_content = soup.find_all('p')
-                    temp = get_content(news_content)
-                    print(temp[0:300])
-                    title = n.get_text().replace('\n', '')
-                    res_news[title] = temp[0:300]
-                    res_urls[title] = n['href']
-                    print("Find news in site: " + n['href'])
-                except ValueError as e:
-                    print(e)
-                except:
-                    print("Cant find news in this site")
-                finally:
+            if (count >= 0):
+                result = compare(n['href'], '404.txt')
+                if not result:
+                    # start crawling
+                    html_cont = self.downloader.download(n['href'])
+                    soup = BeautifulSoup(html_cont, 'html.parser', from_encoding='utf-8')
+                    try:
+                        # search for content
+                        news_content = soup.find_all('p')
+                        temp = get_content(news_content)
+                        print(temp[0:300])
+                        title = n.get_text().replace('\n', '')
+                        res_news[title] = temp[0:300]
+                        res_urls[title] = n['href']
+                        print("Find news in site: " + n['href'])
+                    except ValueError as e:
+                        print(e)
+                    except:
+                        print("Cant find news in this site")
+                    finally:
+                        res_data['summary'] = res_news
+                        res_data['website'] = res_urls
+                        print("res_news size : " + str(len(res_data['summary'])))
+                else:
+                    # find the website in the history
+                    res_news[n['href']] = "HTTP ERROR"
+                    res_urls[n['href']] = n['href']
                     res_data['summary'] = res_news
                     res_data['website'] = res_urls
+                    print("Find Error in site: " + n['href'])
                     print("res_news size : " + str(len(res_data['summary'])))
+                    break
         return res_data
 
     # 解析网页获取 new_urls 与 new_data

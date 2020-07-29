@@ -1,6 +1,14 @@
 # coding=utf-8
-
+import os
 import url_manager, html_downloader, html_parser, html_outputer
+
+def create_file404():
+    if os.path.exists('404.txt'):
+        return None
+    else:
+        f = open('404.txt', 'w+')
+        f.seek(0)
+        f.close()
 
 
 # 爬虫主调程序，主要逻辑
@@ -48,7 +56,8 @@ class SpiderMain(object):
 
 if __name__ == "__main__":
     # 设置入口页 URL
-    # https://news.sina.com.cn/  https://news.163.com/
-    root_url = "http://news.baidu.com/"
+    # https://news.sina.com.cn/  https://news.163.com/ http://news.baidu.com/
+    create_file404()
+    root_url = "https://news.163.com/"
     obj_spider = SpiderMain()
     obj_spider.craw(root_url)

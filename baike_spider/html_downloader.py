@@ -1,9 +1,12 @@
 # coding=utf-8
 import ssl
-import random
+import os
 from urllib import request
 from fake_useragent import UserAgent
 # HTML 下载器
+
+
+
 class HtmlDownloader(object):
 
 
@@ -25,5 +28,13 @@ class HtmlDownloader(object):
             else:
                 return response.read()
         except Exception as e:
-            print(url+' got a error: [' + str(e) +" ] ")
+            print(url+' got a error: [' + str(e) +"]")
+            if str(e) == 'HTTP Error 404: Not Found':
+                file_name = "404.txt"
+                with open(file_name, 'a') as object:
+                    object.write(url+"\n")
+                    print(url+" has been recorded")
+            return None
+
+
 

@@ -10,7 +10,7 @@ def export_excel(export):
         # 将字典列表转换为DataFrame
         pf = pd.DataFrame(list(export))
         # 指定字段顺序
-        order = ['URL', 'Website','Title', 'Value']
+        order = ['URL', 'Website', 'Title', 'Value']
         pf = pf[order]
 
         file_path = pd.ExcelWriter('name.xlsx')
