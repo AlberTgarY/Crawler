@@ -1,6 +1,6 @@
 # coding=utf-8
 import os
-import time, random
+import chardet
 import url_manager, html_downloader, html_parser, html_outputer
 
 def create_file404():
@@ -40,12 +40,12 @@ class SpiderMain(object):
 
                 # time.sleep(random.random()*3)
                 html_cont = self.downloader.download(new_url)
-
-                new_urls, new_data = self.parser.parse(new_url, html_cont)
+                encoded_type = chardet.detect(html_cont)['encoding']
+                new_urls, new_data = self.parser.parse(new_url, html_cont, encoded_type)
                 self.urls.add_new_urls(new_urls)
                 self.outputer.collect_data(new_data)
 
-                if count == 0:
+                if count == 5:
                     break
 
                 count = count + 1

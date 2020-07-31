@@ -1,6 +1,6 @@
 # coding=utf-8
 import ssl
-import os
+import requests
 from urllib import request
 from fake_useragent import UserAgent
 # HTML 下载器
@@ -22,9 +22,13 @@ class HtmlDownloader(object):
             headers = {"User-Agent": ua.random}
             # request website
             r = request.Request(url=url, headers=headers)
+            # r1 = requests.get(url=url, headers=headers, timeout=15)
+            # print(r1)
+            # print(r1.encoding)
+            # print(r1.apparent_encoding)
             response = request.urlopen(r, context=context, timeout=15)
+
             # print(str(response.info()["Content-Type"]))
-            # print(response.read())
             if response.getcode() != 200:
                 return None
             elif str(response.info()["Content-Type"]).find("text/html") == -1:

@@ -1,6 +1,7 @@
 # coding=utf-8
 
 import re
+import chardet
 from urllib import parse
 from bs4 import BeautifulSoup
 
@@ -62,7 +63,7 @@ class HtmlParser(object):
 
         self.downloader = html_downloader.HtmlDownloader()
         res_data = {'url': page_url}
-        count = 150
+        count = 50
         # contain all news in current page
         res_urls = {}
         res_news = {}
@@ -75,7 +76,9 @@ class HtmlParser(object):
                 if not result:
                     # start crawling
                     html_cont = self.downloader.download(n['href'])
-                    soup = BeautifulSoup(html_cont, 'html.parser', from_encoding='utf-8')
+                    encoded_type = chardet.detect(html_cont)['encoding']
+                    print("type: "+ encoded_type)
+                    soup = BeautifulSoup(html_cont, 'html.parser', from_encoding=str(encoded_type))
                     try:
                         # search for content
                         print("Try to search: " + n['href'])
@@ -105,12 +108,12 @@ class HtmlParser(object):
         return res_data
 
     # 解析网页获取 new_urls 与 new_data
-    def parse(self, page_url, html_cont):
+    def parse(self, page_url, html_cont, encoded_type):
 
         if page_url is None or html_cont is None:
             return
 
-        soup = BeautifulSoup(html_cont, 'html.parser', from_encoding='utf-8')
+        soup = BeautifulSoup(html_cont, 'html.parser', from_encoding=str(encoded_type))
 
         new_urls = self._get_new_urls(page_url, soup)
         new_data = self._get_new_data(page_url, soup)

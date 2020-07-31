@@ -17,7 +17,7 @@ def export_excel(export):
         # 替换空单元格
         pf.fillna(' ', inplace=True)
         # 输出
-        pf.to_excel(file_path, encoding='utf-8', index=False)
+        pf.to_excel(file_path, encoding='GB2312', index=False)
         # 保存表格
         file_path.save()
     except Exception as e:

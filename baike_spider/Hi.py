@@ -1,8 +1,8 @@
 # s = '国'
-
-b = '£¨Ô­±êÌâ£º Ï°½üÆ½Ðû²¼±±¶·ÈýºÅÈ«ÇòÎÀÐÇµ¼º½ÏµÍ³ÕýÊ½¿ªÍ¨£©'
-e = bytes(b , encoding='gbk')
-c = e.decode('gbk')
+#
+b = 'Ô­±êÌâ£ºÊ®Èý½ìÈ«¹úÈË´óÈý´Î»áÒéÔÚ¾©±ÕÄ»£©'
+e = bytes(b , encoding='GBK')
+c = b.decode('GBK')
 print(c)
 # from fake_useragent import UserAgent
 # ua = UserAgent()
