@@ -21,20 +21,27 @@ class HtmlDownloader(object):
             # fake headers
             headers = {"User-Agent": ua.random}
             # request website
-            r = request.Request(url=url,headers=headers)
-            response = request.urlopen(r, context=context)
+            r = request.Request(url=url, headers=headers)
+            response = request.urlopen(r, context=context, timeout=15)
+            # print(str(response.info()["Content-Type"]))
+            # print(response.read())
             if response.getcode() != 200:
                 return None
+            elif str(response.info()["Content-Type"]).find("text/html") == -1:
+                if str(response.info()["Content-Type"]).find("text/xml") != -1:
+                    return response.read()
+                raise Exception("The url type is not HTML")
             else:
                 return response.read()
         except Exception as e:
             print(url+' got a error: [' + str(e) +"]")
-            if str(e) == 'HTTP Error 404: Not Found':
-                file_name = "404.txt"
-                with open(file_name, 'a') as object:
-                    object.write(url+"\n")
-                    print(url+" has been recorded")
-            return None
+            # if str(e) == 'HTTP Error 404: Not Found' or str(e) == 'The url type is not HTML':
+            file_name = "404.txt"
+            with open(file_name, 'a') as object:
+                object.write(url+"\n")
+                print(url+" has been recorded")
+                return None
+
 
 
 

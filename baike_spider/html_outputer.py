@@ -42,9 +42,12 @@ class HtmlOutputer(object):
     def output_excel(self):
         dict_list = []
         # construct the dict to a certain format
-        for data in self.datas:
-            for key, value, website in zip(data['summary'].keys(), data['summary'].values(), data['website'].values()):
-                temp_dict = {'URL': data['url'], "Website": website, "Title": key, "Value": value}
-                dict_list.append(temp_dict)
+        try:
+            for data in self.datas:
+                for key, value, website in zip(data['summary'].keys(), data['summary'].values(), data['website'].values()):
+                    temp_dict = {'URL': data['url'], "Website": website, "Title": key, "Value": value}
+                    dict_list.append(temp_dict)
+        except Exception as e:
+            print(e)
         print(dict_list)
         export_excel(dict_list)

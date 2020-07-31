@@ -1,5 +1,6 @@
 # coding=utf-8
 import os
+import time, random
 import url_manager, html_downloader, html_parser, html_outputer
 
 def create_file404():
@@ -25,7 +26,7 @@ class SpiderMain(object):
     def craw(self, root_url):
 
         # 下载成功页面计数
-        count = 1
+        count = 0
 
         # 添加第一个 URL
         self.urls.add_new_url(root_url)
@@ -37,13 +38,14 @@ class SpiderMain(object):
 
                 print("craw %d : %s" % (count, new_url))
 
+                # time.sleep(random.random()*3)
                 html_cont = self.downloader.download(new_url)
 
                 new_urls, new_data = self.parser.parse(new_url, html_cont)
                 self.urls.add_new_urls(new_urls)
                 self.outputer.collect_data(new_data)
 
-                if count == 1:
+                if count == 0:
                     break
 
                 count = count + 1
@@ -58,6 +60,6 @@ if __name__ == "__main__":
     # 设置入口页 URL
     # https://news.sina.com.cn/  https://news.163.com/ http://news.baidu.com/
     create_file404()
-    root_url = "https://news.163.com/"
+    root_url = "https://news.sina.com.cn/"
     obj_spider = SpiderMain()
     obj_spider.craw(root_url)

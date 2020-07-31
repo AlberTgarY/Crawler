@@ -44,7 +44,7 @@ class HtmlParser(object):
     def _get_new_urls(self, page_url, soup):
 
         new_urls = set()
-        count = 20
+        count = 10
         # 查找页面的 URL
         links = soup.find_all('a')
         for link in links:
@@ -52,7 +52,7 @@ class HtmlParser(object):
             if (count >= 0):
                 new_url = link['href']
                 # 将 new_url 按照 page_url 的格式拼接
-                print(new_url)
+                # print(new_url)
                 new_url_join = parse.urljoin(page_url, new_url)
                 new_urls.add(new_url_join)
         return new_urls
@@ -62,12 +62,12 @@ class HtmlParser(object):
 
         self.downloader = html_downloader.HtmlDownloader()
         res_data = {'url': page_url}
-        count = 120
+        count = 150
         # contain all news in current page
         res_urls = {}
         res_news = {}
         # search for news link
-        summary_node = soup.find_all(href=re.compile(r'http(s?)(://)'))
+        summary_node = soup.find_all(href=re.compile(r'html'))
         for n in summary_node:
             count = count - 1
             if (count >= 0):
@@ -78,13 +78,13 @@ class HtmlParser(object):
                     soup = BeautifulSoup(html_cont, 'html.parser', from_encoding='utf-8')
                     try:
                         # search for content
+                        print("Try to search: " + n['href'])
                         news_content = soup.find_all('p')
                         temp = get_content(news_content)
                         print(temp[0:300])
                         title = n.get_text().replace('\n', '')
                         res_news[title] = temp[0:300]
                         res_urls[title] = n['href']
-                        print("Find news in site: " + n['href'])
                     except ValueError as e:
                         print(e)
                     except:
@@ -99,9 +99,9 @@ class HtmlParser(object):
                     res_urls[n['href']] = n['href']
                     res_data['summary'] = res_news
                     res_data['website'] = res_urls
-                    print("Find Error in site: " + n['href'])
-                    print("res_news size : " + str(len(res_data['summary'])))
-                    break
+                    print("This url is invalid: " + n['href'])
+                    # print("res_news size : " + str(len(res_data['summary'])))
+                    continue
         return res_data
 
     # 解析网页获取 new_urls 与 new_data
