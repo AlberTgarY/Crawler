@@ -4,9 +4,13 @@ import re
 import chardet
 from urllib import parse
 from bs4 import BeautifulSoup
-
 # HTML 解析器
 import html_downloader
+import configparser
+
+# 读取配置文件
+config = configparser.RawConfigParser()
+config.read("cfg.ini")
 
 
 def compare(url, file_name):
@@ -45,7 +49,7 @@ class HtmlParser(object):
     def _get_new_urls(self, page_url, soup):
 
         new_urls = set()
-        count = 10
+        count = int(config.get("crawler", "craw_url_num"))
         # 查找页面的 URL
         links = soup.find_all('a')
         for link in links:
@@ -63,7 +67,7 @@ class HtmlParser(object):
 
         self.downloader = html_downloader.HtmlDownloader()
         res_data = {'url': page_url}
-        count = 50
+        count = int(config.get("crawler", "craw_data_num"))
         # contain all news in current page
         res_urls = {}
         res_news = {}
@@ -85,6 +89,7 @@ class HtmlParser(object):
                         news_content = soup.find_all('p')
                         temp = get_content(news_content)
                         print(temp[0:300])
+                        # brief description
                         title = n.get_text().replace('\n', '')
                         res_news[title] = temp[0:300]
                         res_urls[title] = n['href']

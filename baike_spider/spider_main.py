@@ -2,6 +2,12 @@
 import os
 import chardet
 import url_manager, html_downloader, html_parser, html_outputer
+import configparser
+
+# 读取配置文件
+config = configparser.RawConfigParser()
+config.read("cfg.ini")
+
 
 def create_file404():
     if os.path.exists('404.txt'):
@@ -45,7 +51,7 @@ class SpiderMain(object):
                 self.urls.add_new_urls(new_urls)
                 self.outputer.collect_data(new_data)
 
-                if count == 5:
+                if count == int(config.get("crawler", "craw_root_num")):
                     break
 
                 count = count + 1
