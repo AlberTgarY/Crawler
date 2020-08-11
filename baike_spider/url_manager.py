@@ -27,7 +27,8 @@ class UrlManager(object):
             self.add_new_url(url)
 
 
-
+    def size(self):
+        return len(self.new_urls)
     # URL 管理器内是否存在 URL
     def has_new_url(self):
 
