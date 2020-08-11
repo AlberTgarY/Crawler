@@ -3,27 +3,30 @@ import os
 import chardet
 import url_manager, html_downloader, html_parser, html_outputer
 import configparser
-import logging
+from Logger import get_log
 
-LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
-DATE_FORMAT = "%m/%d/%Y %H:%M:%S %p"
 # 读取配置文件
 config = configparser.RawConfigParser()
 config.read("cfg.ini")
 
+
 def compare(url, file_name):
+    logger.info("Start comparing ROOT URL: " + url)
     for line in open(file_name):
         if line.strip('\n') == url:
             return True
     return False
 
+
 def create_file404():
     if os.path.exists('404.txt'):
+        logger.info("404.txt exist.")
         return None
     else:
         f = open('404.txt', 'w+')
         f.seek(0)
         f.close()
+        logger.info("404.txt created.")
 
 
 # 爬虫主调程序，主要逻辑
@@ -55,6 +58,7 @@ class SpiderMain(object):
                 result = compare(new_url, '404.txt')
                 # time.sleep(random.random()*3)
                 if not result:
+                    logger.info("Start downloading current HTML: " + new_url)
                     html_cont = self.downloader.download(new_url)
                     encoded_type = chardet.detect(html_cont)['encoding']
                     new_urls, new_data = self.parser.parse(new_url, html_cont, encoded_type)
@@ -62,6 +66,7 @@ class SpiderMain(object):
                     self.outputer.collect_data(new_data)
 
                     if count == int(config.get("crawler", "craw_root_num")):
+                        logger.info("Crawling finished")
                         break
 
                     count = count + 1
@@ -77,6 +82,8 @@ class SpiderMain(object):
 
 
 if __name__ == "__main__":
+    logger = get_log()
+    logger.info("Crawler has started working.")
     # 设置入口页 URL
     # https://news.sina.com.cn/  https://news.163.com/ http://news.baidu.com/
     create_file404()

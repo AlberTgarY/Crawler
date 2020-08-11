@@ -7,11 +7,12 @@ from bs4 import BeautifulSoup
 # HTML 解析器
 import html_downloader
 import configparser
+from Logger import get_log
 
 # 读取配置文件
 config = configparser.RawConfigParser()
 config.read("cfg.ini")
-
+logger = get_log()
 
 def compare(url, file_name):
     for line in open(file_name):
@@ -43,6 +44,7 @@ class HtmlParser(object):
             # 将 new_url 按照 page_url 的格式拼接
             new_url_join = parse.urljoin(page_url, new_url)
             new_urls.add(new_url_join)
+            logger.debug("New added index url: "+ new_url_join)
         return new_urls
 
     # 获取页面中所有的 URL
@@ -60,6 +62,8 @@ class HtmlParser(object):
                 # print(new_url)
                 new_url_join = parse.urljoin(page_url, new_url)
                 new_urls.add(new_url_join)
+                logger.debug("New added url: " + new_url_join)
+
         return new_urls
 
     # 获取页面中想要的 DATA
@@ -81,8 +85,10 @@ class HtmlParser(object):
                     result = compare(n['href'], '404.txt')
                     if not result:
                         # start crawling
+                        logger.info("Start downloading url: " + n['href'])
                         html_cont = self.downloader.download(n['href'])
                         if html_cont == None:
+                            logger.info("This url is NoneType, crawling skipped.")
                             print("This urls` html has NoneType Error, continue crawling")
                             continue
                         encoded_type = chardet.detect(html_cont)['encoding']
@@ -94,11 +100,13 @@ class HtmlParser(object):
                             news_content = soup.find_all('p')
                             temp = get_content(news_content)
                             print(temp[0:300])
+                            logger.debug("Found content : " + temp[0:30] + "...")
                             # brief description
                             title = n.get_text().replace('\n', '')
                             res_news[title] = temp[0:300]
                             res_urls[title] = n['href']
                         except ValueError as e:
+                            logger.debug("Got a ValueError: " + str(e))
                             print(e)
                         except:
                             print("Cant find news in this site")
@@ -107,6 +115,7 @@ class HtmlParser(object):
                             res_data['website'] = res_urls
                             print("res_news size : " + str(len(res_data['summary'])))
                     else:
+                        logger.info(n['href'] + " has HTTP ERROR")
                         # find the website in the history
                         res_news[n['href']] = "HTTP ERROR"
                         res_urls[n['href']] = n['href']
@@ -116,6 +125,7 @@ class HtmlParser(object):
                         # print("res_news size : " + str(len(res_data['summary'])))
                         continue
         else:
+            logger.info("root url: "+ page_url + " has NO CONTENT")
             res_news[page_url] = "NO CONTENT"
             res_urls[page_url] = page_url
             res_data['summary'] = res_news
@@ -124,8 +134,9 @@ class HtmlParser(object):
 
     # 解析网页获取 new_urls 与 new_data
     def parse(self, page_url, html_cont, encoded_type):
-
+        logger.info("Start parsing")
         if page_url is None or html_cont is None:
+            logger.debug("Can`t find anything!")
             return
 
         soup = BeautifulSoup(html_cont, 'html.parser', from_encoding=str(encoded_type))
