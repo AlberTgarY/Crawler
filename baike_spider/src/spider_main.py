@@ -1,13 +1,17 @@
 # coding=utf-8
+import configparser
 import os
 import chardet
-import url_manager, html_downloader, html_parser, html_outputer
-import configparser
+import html_downloader
+import html_outputer
+import html_parser
+import url_manager
 from Logger import get_log
 
 # 读取配置文件
 config = configparser.RawConfigParser()
-config.read("cfg.ini")
+config.read("./temp/cfg.ini")
+logger = get_log()
 
 
 def compare(url, file_name):
@@ -19,14 +23,27 @@ def compare(url, file_name):
 
 
 def create_file404():
-    if os.path.exists('404.txt'):
-        logger.info("404.txt exist.")
-        return None
-    else:
-        f = open('404.txt', 'w+')
-        f.seek(0)
-        f.close()
-        logger.info("404.txt created.")
+    try:
+        INVALID_URL_TXT_PATH = str(config.get("path", "txt_path"))
+        if os.path.exists(INVALID_URL_TXT_PATH):
+            logger.info("404.txt exist, located in " + INVALID_URL_TXT_PATH)
+            return None
+        else:
+            f = open(INVALID_URL_TXT_PATH, 'w+')
+            f.seek(0)
+            f.close()
+            logger.info("404.txt created.")
+    except Exception as e:
+        logger.debug(e)
+        print(e)
+
+
+# start crawling
+def Start(root_url):
+    logger.info("Crawler has started working. root url: " + "*** " + root_url + " ***")
+    create_file404()
+    obj_spider = SpiderMain()
+    obj_spider.craw(root_url)
 
 
 # 爬虫主调程序，主要逻辑
@@ -42,6 +59,7 @@ class SpiderMain(object):
 
     def craw(self, root_url):
 
+        path = str(config.get("path", "txt_path"))
         # 下载成功页面计数
         count = 0
 
@@ -55,7 +73,7 @@ class SpiderMain(object):
                 new_url = self.urls.get_new_url()
 
                 print("craw %d : %s" % (count, new_url))
-                result = compare(new_url, '404.txt')
+                result = compare(new_url, path)
                 # time.sleep(random.random()*3)
                 if not result:
                     logger.info("Start downloading current HTML: " + new_url)
@@ -78,15 +96,5 @@ class SpiderMain(object):
             except Exception as e:
                 print(e)
 
-        self.outputer.output_excel()
+        self.outputer.output_excel(root_url)
 
-
-if __name__ == "__main__":
-    logger = get_log()
-    logger.info("Crawler has started working.")
-    # 设置入口页 URL
-    # https://news.sina.com.cn/  https://news.163.com/ http://news.baidu.com/
-    create_file404()
-    root_url = "http://www.people.com.cn/"
-    obj_spider = SpiderMain()
-    obj_spider.craw(root_url)

@@ -1,0 +1,9 @@
+import configparser
+import spider_main
+# 读取配置文件
+config = configparser.RawConfigParser()
+config.read("./temp/cfg.ini")
+if __name__ == "__main__":
+    List = config.get("urls", "List").split('\n')
+    for url in List:
+        spider_main.Start(url)

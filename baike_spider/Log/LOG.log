@@ -1,0 +1,851 @@
+2020-08-13 16:29:33,460 - INFO - Crawler has started working. root url: *** https://news.sina.com.cn/ ***
+2020-08-13 16:29:33,461 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:29:33,461 - INFO - Start comparing ROOT URL: https://news.sina.com.cn/
+2020-08-13 16:29:33,461 - INFO - Start downloading current HTML: https://news.sina.com.cn/
+2020-08-13 16:29:33,465 - INFO - urlopen: https://news.sina.com.cn/
+2020-08-13 16:29:33,653 - INFO - Read data successfully
+2020-08-13 16:29:38,326 - INFO - Start parsing
+2020-08-13 16:29:39,094 - DEBUG - New added url: http://www.sina.com.cn/
+2020-08-13 16:29:39,095 - DEBUG - New added url: https://news.sina.com.cn/#jump0
+2020-08-13 16:29:39,095 - DEBUG - New added url: http://news.sina.com.cn/
+2020-08-13 16:29:39,095 - DEBUG - New added url: http://mil.news.sina.com.cn/
+2020-08-13 16:29:39,095 - DEBUG - New added url: https://news.sina.com.cn/china/
+2020-08-13 16:29:39,095 - DEBUG - New added url: http://news.sina.com.cn/world/
+2020-08-13 16:29:39,096 - DEBUG - New added url: http://finance.sina.com.cn/
+2020-08-13 16:29:39,096 - DEBUG - New added url: http://finance.sina.com.cn/stock/
+2020-08-13 16:29:39,096 - DEBUG - New added url: http://finance.sina.com.cn/fund/
+2020-08-13 16:29:39,096 - DEBUG - New added url: http://finance.sina.com.cn/forex/
+2020-08-13 16:29:39,286 - INFO - Start downloading url: http://auto.sina.com.cn/newcar/index.d.html
+2020-08-13 16:29:39,287 - INFO - urlopen: http://auto.sina.com.cn/newcar/index.d.html
+2020-08-13 16:29:40,009 - INFO - Read data successfully
+2020-08-13 16:29:43,066 - DEBUG - Found content : 2020-08-12刚上市长安欧尚X7 EV车型频道2020...
+2020-08-13 16:29:43,067 - INFO - Start downloading url: http://m.sina.com.cn/m/sinahome.shtml
+2020-08-13 16:29:43,068 - INFO - urlopen: http://m.sina.com.cn/m/sinahome.shtml
+2020-08-13 16:29:43,332 - INFO - Read data successfully
+2020-08-13 16:29:43,337 - DEBUG - Got a ValueError: content is None
+2020-08-13 16:29:43,338 - INFO - Start downloading url: http://finance.sina.com.cn/mobile/comfinanceweb.shtml?source=xinshou01
+2020-08-13 16:29:43,340 - INFO - urlopen: http://finance.sina.com.cn/mobile/comfinanceweb.shtml?source=xinshou01
+2020-08-13 16:29:43,560 - INFO - Read data successfully
+2020-08-13 16:29:44,148 - DEBUG - Got a ValueError: content is None
+2020-08-13 16:29:44,148 - INFO - Start downloading url: http://m.sina.com.cn/m/sinasport.shtml
+2020-08-13 16:29:44,149 - INFO - urlopen: http://m.sina.com.cn/m/sinasport.shtml
+2020-08-13 16:29:44,368 - INFO - Read data successfully
+2020-08-13 16:29:44,370 - DEBUG - Got a ValueError: content is None
+2020-08-13 16:29:44,371 - INFO - Start downloading url: http://m.sina.com.cn/m/sinaopencourse.shtml
+2020-08-13 16:29:44,373 - INFO - urlopen: http://m.sina.com.cn/m/sinaopencourse.shtml
+2020-08-13 16:29:44,575 - INFO - Read data successfully
+2020-08-13 16:29:45,633 - DEBUG - Found content : 新浪公开课iPad、iPhone、Android新版客户端上...
+2020-08-13 16:29:45,633 - INFO - Start downloading url: http://slide.news.sina.com.cn/slide_1_86058_475000.html
+2020-08-13 16:29:45,634 - INFO - urlopen: http://slide.news.sina.com.cn/slide_1_86058_475000.html
+2020-08-13 16:29:45,794 - INFO - Read data successfully
+2020-08-13 16:29:47,833 - DEBUG - Found content : 已收藏!您可通过新浪首页(www.sina.com.cn)顶...
+2020-08-13 16:29:47,834 - INFO - Start downloading url: http://slide.news.sina.com.cn/slide_1_86058_475000.html
+2020-08-13 16:29:47,835 - INFO - urlopen: http://slide.news.sina.com.cn/slide_1_86058_475000.html
+2020-08-13 16:29:47,909 - INFO - Read data successfully
+2020-08-13 16:29:49,980 - DEBUG - Found content : 已收藏!您可通过新浪首页(www.sina.com.cn)顶...
+2020-08-13 16:29:49,981 - INFO - Start downloading url: http://slide.mil.news.sina.com.cn/c/slide_8_91486_79956.html
+2020-08-13 16:29:49,982 - INFO - urlopen: http://slide.mil.news.sina.com.cn/c/slide_8_91486_79956.html
+2020-08-13 16:29:50,082 - INFO - Read data successfully
+2020-08-13 16:29:52,714 - DEBUG - Found content : 已收藏!您可通过新浪首页(www.sina.com.cn)顶...
+2020-08-13 16:29:52,714 - INFO - Start downloading url: http://slide.mil.news.sina.com.cn/c/slide_8_91486_79956.html
+2020-08-13 16:29:52,715 - INFO - urlopen: http://slide.mil.news.sina.com.cn/c/slide_8_91486_79956.html
+2020-08-13 16:29:52,804 - INFO - Read data successfully
+2020-08-13 16:29:55,503 - DEBUG - Found content : 已收藏!您可通过新浪首页(www.sina.com.cn)顶...
+2020-08-13 16:29:55,503 - INFO - Start downloading url: https://video.sina.com.cn/p/news/2020-08-13/detail-iivhvpwy0730833.d.html
+2020-08-13 16:29:55,504 - INFO - urlopen: https://video.sina.com.cn/p/news/2020-08-13/detail-iivhvpwy0730833.d.html
+2020-08-13 16:29:56,142 - INFO - Read data successfully
+2020-08-13 16:29:56,397 - DEBUG - Found content : 正在加载...请稍等~分享视频地址：本页面地址：复制播放器s...
+2020-08-13 16:29:56,398 - INFO - Start downloading url: https://video.sina.com.cn/p/news/2020-08-13/detail-iivhvpwy0730833.d.html
+2020-08-13 16:29:56,399 - INFO - urlopen: https://video.sina.com.cn/p/news/2020-08-13/detail-iivhvpwy0730833.d.html
+2020-08-13 16:29:56,863 - INFO - Read data successfully
+2020-08-13 16:29:57,299 - DEBUG - Found content : 正在加载...请稍等~分享视频地址：本页面地址：复制播放器s...
+2020-08-13 16:29:57,299 - INFO - Start downloading url: https://video.sina.com.cn/p/news/2020-08-13/detail-iivhvpwy0730833.d.html
+2020-08-13 16:29:57,300 - INFO - urlopen: https://video.sina.com.cn/p/news/2020-08-13/detail-iivhvpwy0730833.d.html
+2020-08-13 16:29:58,126 - INFO - Read data successfully
+2020-08-13 16:29:58,458 - DEBUG - Found content : 正在加载...请稍等~分享视频地址：本页面地址：复制播放器s...
+2020-08-13 16:29:58,459 - INFO - Start downloading url: https://video.sina.com.cn/p/mil/2020-07-20/detail-iivhvpwx6417433.d.html
+2020-08-13 16:29:58,460 - INFO - urlopen: https://video.sina.com.cn/p/mil/2020-07-20/detail-iivhvpwx6417433.d.html
+2020-08-13 16:29:59,063 - INFO - Read data successfully
+2020-08-13 16:29:59,387 - DEBUG - Found content : 正在加载...请稍等~分享视频地址：本页面地址：复制播放器s...
+2020-08-13 16:29:59,388 - INFO - Start downloading url: https://video.sina.com.cn/p/mil/2020-07-20/detail-iivhvpwx6417433.d.html
+2020-08-13 16:29:59,391 - INFO - urlopen: https://video.sina.com.cn/p/mil/2020-07-20/detail-iivhvpwx6417433.d.html
+2020-08-13 16:29:59,826 - INFO - Read data successfully
+2020-08-13 16:30:00,230 - DEBUG - Found content : 正在加载...请稍等~分享视频地址：本页面地址：复制播放器s...
+2020-08-13 16:30:00,231 - INFO - Start downloading url: https://video.sina.com.cn/p/mil/2020-07-20/detail-iivhvpwx6417433.d.html
+2020-08-13 16:30:00,232 - INFO - urlopen: https://video.sina.com.cn/p/mil/2020-07-20/detail-iivhvpwx6417433.d.html
+2020-08-13 16:30:00,761 - INFO - Read data successfully
+2020-08-13 16:30:01,080 - DEBUG - Found content : 正在加载...请稍等~分享视频地址：本页面地址：复制播放器s...
+2020-08-13 16:30:01,081 - INFO - Start downloading url: https://video.sina.com.cn/p/news/2020-08-13/detail-iivhuipn8360934.d.html
+2020-08-13 16:30:01,081 - INFO - urlopen: https://video.sina.com.cn/p/news/2020-08-13/detail-iivhuipn8360934.d.html
+2020-08-13 16:30:01,545 - INFO - Read data successfully
+2020-08-13 16:30:01,888 - DEBUG - Found content : 正在加载...请稍等~分享视频地址：本页面地址：复制播放器s...
+2020-08-13 16:30:01,888 - INFO - Start downloading url: https://video.sina.com.cn/p/news/2020-08-13/detail-iivhuipn8360934.d.html
+2020-08-13 16:30:01,889 - INFO - urlopen: https://video.sina.com.cn/p/news/2020-08-13/detail-iivhuipn8360934.d.html
+2020-08-13 16:30:02,443 - INFO - Read data successfully
+2020-08-13 16:30:02,717 - DEBUG - Found content : 正在加载...请稍等~分享视频地址：本页面地址：复制播放器s...
+2020-08-13 16:30:02,718 - INFO - Start downloading url: http://slide.news.sina.com.cn/slide_1_86058_474882.html
+2020-08-13 16:30:02,719 - INFO - urlopen: http://slide.news.sina.com.cn/slide_1_86058_474882.html
+2020-08-13 16:30:02,835 - INFO - Read data successfully
+2020-08-13 16:30:05,221 - DEBUG - Found content : 已收藏!您可通过新浪首页(www.sina.com.cn)顶...
+2020-08-13 16:30:05,221 - INFO - Start downloading url: http://slide.news.sina.com.cn/slide_1_86058_474987.html
+2020-08-13 16:30:05,222 - INFO - urlopen: http://slide.news.sina.com.cn/slide_1_86058_474987.html
+2020-08-13 16:30:05,282 - INFO - Read data successfully
+2020-08-13 16:30:07,336 - DEBUG - Found content : 已收藏!您可通过新浪首页(www.sina.com.cn)顶...
+2020-08-13 16:30:07,336 - INFO - Start downloading url: http://slide.news.sina.com.cn/slide_1_86058_474989.html
+2020-08-13 16:30:07,337 - INFO - urlopen: http://slide.news.sina.com.cn/slide_1_86058_474989.html
+2020-08-13 16:30:07,486 - INFO - Read data successfully
+2020-08-13 16:30:10,002 - DEBUG - Found content : 已收藏!您可通过新浪首页(www.sina.com.cn)顶...
+2020-08-13 16:30:10,002 - INFO - Start downloading url: http://slide.news.sina.com.cn/c/slide_1_86058_474988.html
+2020-08-13 16:30:10,003 - INFO - urlopen: http://slide.news.sina.com.cn/c/slide_1_86058_474988.html
+2020-08-13 16:30:10,217 - INFO - Read data successfully
+2020-08-13 16:30:12,448 - DEBUG - Found content : 已收藏!您可通过新浪首页(www.sina.com.cn)顶...
+2020-08-13 16:30:12,449 - INFO - Start downloading url: https://news.sina.com.cn/gov/xlxw/2020-08-13/doc-iivhvpwy0803898.shtml
+2020-08-13 16:30:12,450 - INFO - urlopen: https://news.sina.com.cn/gov/xlxw/2020-08-13/doc-iivhvpwy0803898.shtml
+2020-08-13 16:30:12,724 - INFO - Read data successfully
+2020-08-13 16:30:13,165 - DEBUG - Found content : 　　原标题：联播+丨跟着总书记一起拒绝“舌尖上的浪费”　　非...
+2020-08-13 16:30:13,166 - INFO - Start downloading url: https://news.sina.com.cn/gov/xlxw/2020-08-13/doc-iivhvpwy0804171.shtml
+2020-08-13 16:30:13,167 - INFO - urlopen: https://news.sina.com.cn/gov/xlxw/2020-08-13/doc-iivhvpwy0804171.shtml
+2020-08-13 16:30:13,542 - INFO - Read data successfully
+2020-08-13 16:30:13,906 - DEBUG - Found content : 　　原标题：习近平关于脱贫攻坚的大实话责任编辑：王树淼 扫描...
+2020-08-13 16:30:13,906 - INFO - Start downloading url: https://news.sina.com.cn/gov/xlxw/2020-08-13/doc-iivhuipn8298744.shtml
+2020-08-13 16:30:13,907 - INFO - urlopen: https://news.sina.com.cn/gov/xlxw/2020-08-13/doc-iivhuipn8298744.shtml
+2020-08-13 16:30:14,259 - INFO - Read data successfully
+2020-08-13 16:30:14,731 - DEBUG - Found content : 　　原标题：第一报道 | 深切的勉励 殷切的期望 习近平这样...
+2020-08-13 16:30:14,732 - INFO - Start downloading url: https://news.sina.com.cn/c/2020-08-12/doc-iivhvpwy0672300.shtml
+2020-08-13 16:30:14,733 - INFO - urlopen: https://news.sina.com.cn/c/2020-08-12/doc-iivhvpwy0672300.shtml
+2020-08-13 16:30:15,080 - INFO - Read data successfully
+2020-08-13 16:30:16,021 - DEBUG - Found content : 　　原标题：2020年8月12日外交部发言人赵立坚主持例行记...
+2020-08-13 16:30:16,022 - INFO - Start downloading url: https://news.sina.com.cn/c/2020-08-12/doc-iivhuipn8316113.shtml
+2020-08-13 16:30:16,023 - INFO - urlopen: https://news.sina.com.cn/c/2020-08-12/doc-iivhuipn8316113.shtml
+2020-08-13 16:30:16,310 - INFO - Read data successfully
+2020-08-13 16:30:17,134 - DEBUG - Found content : 　　原标题：他一句“若新冠出现在美国，轻松搞定”，华春莹：真...
+2020-08-13 16:30:17,135 - INFO - Start downloading url: https://news.sina.com.cn/c/2020-08-13/doc-iivhuipn8360913.shtml
+2020-08-13 16:30:17,136 - INFO - urlopen: https://news.sina.com.cn/c/2020-08-13/doc-iivhuipn8360913.shtml
+2020-08-13 16:30:17,438 - INFO - Read data successfully
+2020-08-13 16:30:18,234 - DEBUG - Found content : 　　原标题：今年，外交部打破了这个惯例！　　来源：牛弹琴　　...
+2020-08-13 16:30:18,234 - INFO - Start downloading url: https://news.sina.com.cn/c/2020-08-12/doc-iivhuipn8325966.shtml
+2020-08-13 16:30:18,235 - INFO - urlopen: https://news.sina.com.cn/c/2020-08-12/doc-iivhuipn8325966.shtml
+2020-08-13 16:30:18,567 - INFO - Read data successfully
+2020-08-13 16:30:19,522 - DEBUG - Found content : 　　原标题：“汉奸股”三日诡异狂飙的背后，是谁在翻云覆雨？　...
+2020-08-13 16:30:19,522 - INFO - Start downloading url: https://news.sina.com.cn/c/2020-08-13/doc-iivhvpwy0762456.shtml
+2020-08-13 16:30:19,523 - INFO - urlopen: https://news.sina.com.cn/c/2020-08-13/doc-iivhvpwy0762456.shtml
+2020-08-13 16:30:19,720 - INFO - Read data successfully
+2020-08-13 16:30:20,890 - DEBUG - Found content : 　　原标题：被保释后，黎智英密会多名反对派　　【综合/观察者...
+2020-08-13 16:30:20,890 - INFO - Start downloading url: https://news.sina.com.cn/c/2020-08-12/doc-iivhuipn8325958.shtml
+2020-08-13 16:30:20,891 - INFO - urlopen: https://news.sina.com.cn/c/2020-08-12/doc-iivhuipn8325958.shtml
+2020-08-13 16:30:21,128 - INFO - Read data successfully
+2020-08-13 16:30:21,932 - DEBUG - Found content : 　　原标题：周庭蹭上日本女团，粉丝一脸嫌弃　　根据《朝日新闻...
+2020-08-13 16:30:21,932 - INFO - Start downloading url: https://news.sina.com.cn/c/2020-08-13/doc-iivhuipn8411695.shtml
+2020-08-13 16:30:21,933 - INFO - urlopen: https://news.sina.com.cn/c/2020-08-13/doc-iivhuipn8411695.shtml
+2020-08-13 16:30:24,000 - INFO - Read data successfully
+2020-08-13 16:30:24,740 - DEBUG - Found content : 　　原标题：江西一杀人嫌犯在逃过程中再次犯案，死者系县医保局...
+2020-08-13 16:30:24,740 - INFO - Start downloading url: https://news.sina.com.cn/c/2020-08-13/doc-iivhvpwy0793826.shtml
+2020-08-13 16:30:24,741 - INFO - urlopen: https://news.sina.com.cn/c/2020-08-13/doc-iivhvpwy0793826.shtml
+2020-08-13 16:30:26,664 - INFO - Read data successfully
+2020-08-13 16:30:27,365 - DEBUG - Found content : 　　原标题：乐安县山砀镇厚坊村发生一起恶性刑事案件 一名驻村...
+2020-08-13 16:30:27,365 - INFO - Start downloading url: https://news.sina.com.cn/s/2020-08-13/doc-iivhvpwy0795316.shtml
+2020-08-13 16:30:27,366 - INFO - urlopen: https://news.sina.com.cn/s/2020-08-13/doc-iivhvpwy0795316.shtml
+2020-08-13 16:30:27,590 - INFO - Read data successfully
+2020-08-13 16:30:28,303 - DEBUG - Found content : 　　原标题：杀人嫌犯疑再犯案村民拿锄头自卫 ：太危险了，我们...
+2020-08-13 16:30:28,303 - INFO - Start downloading url: https://news.sina.com.cn/c/2020-08-12/doc-iivhvpwy0701777.shtml
+2020-08-13 16:30:28,304 - INFO - urlopen: https://news.sina.com.cn/c/2020-08-12/doc-iivhvpwy0701777.shtml
+2020-08-13 16:30:30,149 - INFO - Read data successfully
+2020-08-13 16:30:31,022 - DEBUG - Found content : 　　原标题：民进党又迎来一盆凉水，特朗普造！　　美国卫生部长...
+2020-08-13 16:30:31,022 - INFO - Start downloading url: https://news.sina.com.cn/c/2020-08-13/doc-iivhuipn8423393.shtml
+2020-08-13 16:30:31,024 - INFO - urlopen: https://news.sina.com.cn/c/2020-08-13/doc-iivhuipn8423393.shtml
+2020-08-13 16:30:32,412 - INFO - Read data successfully
+2020-08-13 16:30:33,285 - DEBUG - Found content : 　　原标题：黎智英直播“卖惨”，承认港警国安处人员均为港人，...
+2020-08-13 16:30:33,285 - INFO - Start downloading url: https://news.sina.com.cn/c/2020-08-12/doc-iivhuipn8291592.shtml
+2020-08-13 16:30:33,286 - INFO - urlopen: https://news.sina.com.cn/c/2020-08-12/doc-iivhuipn8291592.shtml
+2020-08-13 16:30:35,170 - INFO - Read data successfully
+2020-08-13 16:30:36,113 - DEBUG - Found content : 　　原标题：参考快评 | 北京今天下的“两场雨”，告诉我们的...
+2020-08-13 16:30:36,113 - INFO - Start downloading url: https://news.sina.com.cn/c/2020-08-12/doc-iivhuipn8305787.shtml
+2020-08-13 16:30:36,114 - INFO - urlopen: https://news.sina.com.cn/c/2020-08-12/doc-iivhuipn8305787.shtml
+2020-08-13 16:30:36,631 - INFO - Read data successfully
+2020-08-13 16:30:37,532 - DEBUG - Found content : 　　原标题：中方真没兴趣，特朗普却津津有味还在说！　　“甩锅...
+2020-08-13 16:30:37,533 - INFO - Start downloading url: https://news.sina.com.cn/w/2020-08-12/doc-iivhuipn8322638.shtml
+2020-08-13 16:30:37,534 - INFO - urlopen: https://news.sina.com.cn/w/2020-08-12/doc-iivhuipn8322638.shtml
+2020-08-13 16:30:37,711 - INFO - Read data successfully
+2020-08-13 16:30:38,832 - DEBUG - Found content : 　　原标题：“卖国贼”余茂春将被钉在历史的耻辱柱上　　近来，...
+2020-08-13 16:30:38,832 - INFO - Start downloading url: https://news.sina.com.cn/c/2020-08-13/doc-iivhuipn8378656.shtml
+2020-08-13 16:30:38,833 - INFO - urlopen: https://news.sina.com.cn/c/2020-08-13/doc-iivhuipn8378656.shtml
+2020-08-13 16:30:43,311 - INFO - Read data successfully
+2020-08-13 16:30:44,227 - DEBUG - Found content : 　　原标题：德媒旁观：“中国芯”只是时间问题　　华为消费者业...
+2020-08-13 16:30:44,228 - INFO - Start downloading url: https://news.sina.com.cn/c/2020-08-13/doc-iivhvpwy0740984.shtml
+2020-08-13 16:30:44,229 - INFO - urlopen: https://news.sina.com.cn/c/2020-08-13/doc-iivhvpwy0740984.shtml
+2020-08-13 16:30:44,536 - INFO - Read data successfully
+2020-08-13 16:30:45,417 - DEBUG - Found content : 　　原标题：原《纽约时报》驻华记者：我被逐出中国后倍感痛苦的...
+2020-08-13 16:30:45,417 - INFO - Start downloading url: https://news.sina.com.cn/w/2020-08-13/doc-iivhvpwy0705571.shtml
+2020-08-13 16:30:45,418 - INFO - urlopen: https://news.sina.com.cn/w/2020-08-13/doc-iivhvpwy0705571.shtml
+2020-08-13 16:30:45,724 - INFO - Read data successfully
+2020-08-13 16:30:46,838 - DEBUG - Found content : 　　原标题：印度最高法院作出“具有时代意义的判决”　　8月1...
+2020-08-13 16:30:46,838 - INFO - Start downloading url: https://news.sina.com.cn/c/2020-08-13/doc-iivhvpwy0731804.shtml
+2020-08-13 16:30:46,839 - INFO - urlopen: https://news.sina.com.cn/c/2020-08-13/doc-iivhvpwy0731804.shtml
+2020-08-13 16:30:47,261 - INFO - Read data successfully
+2020-08-13 16:30:48,332 - DEBUG - Found content : 　　原标题：内蒙古“教父级黑老大”：让政法委替他买单，性行贿...
+2020-08-13 16:30:48,333 - INFO - Start downloading url: https://news.sina.com.cn/c/2020-08-12/doc-iivhuipn8317444.shtml
+2020-08-13 16:30:48,334 - INFO - urlopen: https://news.sina.com.cn/c/2020-08-12/doc-iivhuipn8317444.shtml
+2020-08-13 16:30:48,593 - INFO - Read data successfully
+2020-08-13 16:30:49,292 - DEBUG - Found content : 　　原标题：新冠疫苗498一支？武汉生物制品研究所：处临床试...
+2020-08-13 16:30:49,293 - INFO - Start downloading url: https://news.sina.com.cn/s/2020-08-13/doc-iivhvpwy0771323.shtml
+2020-08-13 16:30:49,294 - INFO - urlopen: https://news.sina.com.cn/s/2020-08-13/doc-iivhvpwy0771323.shtml
+2020-08-13 16:31:16,775 - INFO - Crawler has started working. root url: *** https://news.sina.com.cn/ ***
+2020-08-13 16:31:16,775 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:31:16,775 - INFO - Start comparing ROOT URL: https://news.sina.com.cn/
+2020-08-13 16:31:16,775 - INFO - Start downloading current HTML: https://news.sina.com.cn/
+2020-08-13 16:31:16,777 - INFO - urlopen: https://news.sina.com.cn/
+2020-08-13 16:31:21,840 - INFO - Read data successfully
+2020-08-13 16:31:23,337 - INFO - Start parsing
+2020-08-13 16:31:23,524 - DEBUG - New added url: http://www.sina.com.cn/
+2020-08-13 16:31:23,524 - DEBUG - New added url: https://news.sina.com.cn/#jump0
+2020-08-13 16:31:23,524 - DEBUG - New added url: http://news.sina.com.cn/
+2020-08-13 16:31:23,525 - DEBUG - New added url: http://mil.news.sina.com.cn/
+2020-08-13 16:31:23,525 - DEBUG - New added url: https://news.sina.com.cn/china/
+2020-08-13 16:31:23,525 - DEBUG - New added url: http://news.sina.com.cn/world/
+2020-08-13 16:31:23,525 - DEBUG - New added url: http://finance.sina.com.cn/
+2020-08-13 16:31:23,525 - DEBUG - New added url: http://finance.sina.com.cn/stock/
+2020-08-13 16:31:23,525 - DEBUG - New added url: http://finance.sina.com.cn/fund/
+2020-08-13 16:31:23,525 - DEBUG - New added url: http://finance.sina.com.cn/forex/
+2020-08-13 16:31:23,546 - INFO - Start downloading url: http://auto.sina.com.cn/newcar/index.d.html
+2020-08-13 16:31:23,547 - INFO - urlopen: http://auto.sina.com.cn/newcar/index.d.html
+2020-08-13 16:31:24,185 - INFO - Read data successfully
+2020-08-13 16:31:25,361 - DEBUG - Found content : 2020-08-12刚上市长安欧尚X7 EV车型频道2020...
+2020-08-13 16:31:25,362 - INFO - Crawling finished
+2020-08-13 16:31:25,528 - INFO - Crawler has started working. root url: *** http://www.people.com.cn/ ***
+2020-08-13 16:31:25,528 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:31:25,528 - INFO - Start comparing ROOT URL: http://www.people.com.cn/
+2020-08-13 16:31:25,528 - INFO - Start downloading current HTML: http://www.people.com.cn/
+2020-08-13 16:31:25,529 - INFO - urlopen: http://www.people.com.cn/
+2020-08-13 16:31:25,627 - INFO - Read data successfully
+2020-08-13 16:31:26,423 - INFO - Start parsing
+2020-08-13 16:31:26,499 - DEBUG - New added url: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-13 16:31:26,499 - DEBUG - New added url: http://www.people.com.cn/
+2020-08-13 16:31:26,499 - DEBUG - New added url: http://www.people.com.cn/
+2020-08-13 16:31:26,499 - DEBUG - New added url: http://cpc.people.com.cn/
+2020-08-13 16:31:26,499 - DEBUG - New added url: http://liuyan.people.com.cn/
+2020-08-13 16:31:26,499 - DEBUG - New added url: http://paper.people.com.cn/rmrb/index.html
+2020-08-13 16:31:26,499 - DEBUG - New added url: http://paper.people.com.cn/rmrbhwb/paperindex.htm
+2020-08-13 16:31:26,499 - DEBUG - New added url: http://www.cnautonews.com/
+2020-08-13 16:31:26,499 - DEBUG - New added url: http://paper.people.com.cn/zgnyb/paperindex.htm
+2020-08-13 16:31:26,499 - DEBUG - New added url: http://www.marketdaily.com.cn/
+2020-08-13 16:31:26,508 - INFO - Start downloading url: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-13 16:31:26,509 - INFO - urlopen: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-13 16:31:27,040 - INFO - Read data successfully
+2020-08-13 16:31:27,327 - DEBUG - Found content : ½²»°È«ÎÄ ÈËÃñÈÕ±¨£ºÈÈÑªÖý¾ÍµÄÀ...
+2020-08-13 16:31:27,327 - INFO - Crawling finished
+2020-08-13 16:31:27,332 - INFO - Crawler has started working. root url: *** https://news.163.com/ ***
+2020-08-13 16:31:27,332 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:31:27,333 - INFO - Start comparing ROOT URL: https://news.163.com/
+2020-08-13 16:31:27,333 - INFO - Start downloading current HTML: https://news.163.com/
+2020-08-13 16:31:27,333 - INFO - urlopen: https://news.163.com/
+2020-08-13 16:31:27,481 - INFO - Read data successfully
+2020-08-13 16:31:28,537 - INFO - Start parsing
+2020-08-13 16:31:28,658 - DEBUG - New added url: http://www.163.com/
+2020-08-13 16:31:28,658 - DEBUG - New added url: http://www.163.com/#f=topnav
+2020-08-13 16:31:28,658 - DEBUG - New added url: http://m.163.com/newsapp/#f=topnav
+2020-08-13 16:31:28,658 - DEBUG - New added url: http://open.163.com/#f=topnav
+2020-08-13 16:31:28,658 - DEBUG - New added url: https://hongcai.163.com/?from=pcsy-button
+2020-08-13 16:31:28,658 - DEBUG - New added url: https://gulu.163.com
+2020-08-13 16:31:28,659 - DEBUG - New added url: http://u.163.com/aosoutbdbd8
+2020-08-13 16:31:28,659 - DEBUG - New added url: http://mail.163.com/client/dl.html?from=mail46
+2020-08-13 16:31:28,659 - DEBUG - New added url: http://study.163.com/client/download.htm?from=163app&utm_source=163.com&utm_medium=web_app&utm_campaign=business
+2020-08-13 16:31:28,659 - DEBUG - New added url: javascript:void(0);
+2020-08-13 16:31:28,667 - INFO - Start downloading url: http://mail.163.com/client/dl.html?from=mail46
+2020-08-13 16:31:28,668 - INFO - urlopen: http://mail.163.com/client/dl.html?from=mail46
+2020-08-13 16:31:28,783 - INFO - Read data successfully
+2020-08-13 16:31:28,805 - DEBUG - Got a ValueError: content is None
+2020-08-13 16:31:28,805 - INFO - Crawling finished
+2020-08-13 16:31:28,807 - INFO - Crawler has started working. root url: *** http://news.baidu.com/ ***
+2020-08-13 16:31:28,807 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:31:28,807 - INFO - Start comparing ROOT URL: http://news.baidu.com/
+2020-08-13 16:31:28,807 - INFO - Start downloading current HTML: http://news.baidu.com/
+2020-08-13 16:31:28,807 - INFO - urlopen: http://news.baidu.com/
+2020-08-13 16:31:28,911 - INFO - Read data successfully
+2020-08-13 16:31:29,189 - INFO - Start parsing
+2020-08-13 16:31:29,209 - DEBUG - New added url: https://www.baidu.com/
+2020-08-13 16:31:29,209 - DEBUG - New added url: http://tieba.baidu.com/
+2020-08-13 16:31:29,209 - DEBUG - New added url: https://zhidao.baidu.com/
+2020-08-13 16:31:29,209 - DEBUG - New added url: http://music.baidu.com/
+2020-08-13 16:31:29,209 - DEBUG - New added url: http://image.baidu.com/
+2020-08-13 16:31:29,209 - DEBUG - New added url: http://v.baidu.com/
+2020-08-13 16:31:29,209 - DEBUG - New added url: http://map.baidu.com/
+2020-08-13 16:31:29,209 - DEBUG - New added url: http://wenku.baidu.com/
+2020-08-13 16:31:29,209 - DEBUG - New added url: http://news.baidu.com/
+2020-08-13 16:31:29,210 - DEBUG - New added url: http://help.baidu.com
+2020-08-13 16:31:29,212 - INFO - Start downloading url: https://news.cctv.com/2020/08/12/ARTIh7QwSmjDrWnfs6ClY2et200812.shtml
+2020-08-13 16:31:29,212 - INFO - urlopen: https://news.cctv.com/2020/08/12/ARTIh7QwSmjDrWnfs6ClY2et200812.shtml
+2020-08-13 16:31:29,590 - INFO - Read data successfully
+2020-08-13 16:31:29,739 - DEBUG - Found content : 非常时期关键时刻习近平总书记再次点名遏制“舌尖上的浪费”↓↓...
+2020-08-13 16:31:29,739 - INFO - Crawling finished
+2020-08-13 16:34:14,725 - INFO - Crawler has started working. root url: *** https://news.sina.com.cn/ ***
+2020-08-13 16:34:14,725 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:34:14,725 - INFO - Start comparing ROOT URL: https://news.sina.com.cn/
+2020-08-13 16:34:14,726 - INFO - Start downloading current HTML: https://news.sina.com.cn/
+2020-08-13 16:34:14,728 - INFO - urlopen: https://news.sina.com.cn/
+2020-08-13 16:34:14,811 - INFO - Read data successfully
+2020-08-13 16:34:16,457 - INFO - Start parsing
+2020-08-13 16:34:16,646 - DEBUG - New added url: http://www.sina.com.cn/
+2020-08-13 16:34:16,646 - DEBUG - New added url: https://news.sina.com.cn/#jump0
+2020-08-13 16:34:16,646 - DEBUG - New added url: http://news.sina.com.cn/
+2020-08-13 16:34:16,646 - DEBUG - New added url: http://mil.news.sina.com.cn/
+2020-08-13 16:34:16,647 - DEBUG - New added url: https://news.sina.com.cn/china/
+2020-08-13 16:34:16,647 - DEBUG - New added url: http://news.sina.com.cn/world/
+2020-08-13 16:34:16,647 - DEBUG - New added url: http://finance.sina.com.cn/
+2020-08-13 16:34:16,647 - DEBUG - New added url: http://finance.sina.com.cn/stock/
+2020-08-13 16:34:16,647 - DEBUG - New added url: http://finance.sina.com.cn/fund/
+2020-08-13 16:34:16,647 - DEBUG - New added url: http://finance.sina.com.cn/forex/
+2020-08-13 16:34:16,669 - INFO - Start downloading url: http://auto.sina.com.cn/newcar/index.d.html
+2020-08-13 16:34:16,670 - INFO - urlopen: http://auto.sina.com.cn/newcar/index.d.html
+2020-08-13 16:34:16,982 - INFO - Read data successfully
+2020-08-13 16:34:17,892 - DEBUG - Found content : 2020-08-12刚上市斯派卡车型频道2020-08-13...
+2020-08-13 16:34:17,892 - INFO - Crawling finished
+2020-08-13 16:34:18,002 - INFO - Excel file outputted.
+2020-08-13 16:34:18,002 - INFO - Crawler has started working. root url: *** http://www.people.com.cn/ ***
+2020-08-13 16:34:18,002 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:34:18,002 - INFO - Start comparing ROOT URL: http://www.people.com.cn/
+2020-08-13 16:34:18,002 - INFO - Start downloading current HTML: http://www.people.com.cn/
+2020-08-13 16:34:18,003 - INFO - urlopen: http://www.people.com.cn/
+2020-08-13 16:34:18,086 - INFO - Read data successfully
+2020-08-13 16:34:18,937 - INFO - Start parsing
+2020-08-13 16:34:19,024 - DEBUG - New added url: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-13 16:34:19,025 - DEBUG - New added url: http://www.people.com.cn/
+2020-08-13 16:34:19,025 - DEBUG - New added url: http://www.people.com.cn/
+2020-08-13 16:34:19,025 - DEBUG - New added url: http://cpc.people.com.cn/
+2020-08-13 16:34:19,025 - DEBUG - New added url: http://liuyan.people.com.cn/
+2020-08-13 16:34:19,025 - DEBUG - New added url: http://paper.people.com.cn/rmrb/index.html
+2020-08-13 16:34:19,025 - DEBUG - New added url: http://paper.people.com.cn/rmrbhwb/paperindex.htm
+2020-08-13 16:34:19,025 - DEBUG - New added url: http://www.cnautonews.com/
+2020-08-13 16:34:19,025 - DEBUG - New added url: http://paper.people.com.cn/zgnyb/paperindex.htm
+2020-08-13 16:34:19,025 - DEBUG - New added url: http://www.marketdaily.com.cn/
+2020-08-13 16:34:19,036 - INFO - Start downloading url: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-13 16:34:19,037 - INFO - urlopen: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-13 16:34:19,442 - INFO - Read data successfully
+2020-08-13 16:34:19,690 - DEBUG - Found content : ½²»°È«ÎÄ ÈËÃñÈÕ±¨£ºÈÈÑªÖý¾ÍµÄÀ...
+2020-08-13 16:34:19,690 - INFO - Crawling finished
+2020-08-13 16:34:19,741 - INFO - Excel file outputted.
+2020-08-13 16:34:19,741 - INFO - Crawler has started working. root url: *** https://news.163.com/ ***
+2020-08-13 16:34:19,741 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:34:19,741 - INFO - Start comparing ROOT URL: https://news.163.com/
+2020-08-13 16:34:19,741 - INFO - Start downloading current HTML: https://news.163.com/
+2020-08-13 16:34:19,742 - INFO - urlopen: https://news.163.com/
+2020-08-13 16:34:19,834 - INFO - Read data successfully
+2020-08-13 16:34:20,921 - INFO - Start parsing
+2020-08-13 16:34:21,000 - DEBUG - New added url: http://www.163.com/
+2020-08-13 16:34:21,000 - DEBUG - New added url: http://www.163.com/#f=topnav
+2020-08-13 16:34:21,000 - DEBUG - New added url: http://m.163.com/newsapp/#f=topnav
+2020-08-13 16:34:21,000 - DEBUG - New added url: http://open.163.com/#f=topnav
+2020-08-13 16:34:21,000 - DEBUG - New added url: https://hongcai.163.com/?from=pcsy-button
+2020-08-13 16:34:21,000 - DEBUG - New added url: https://gulu.163.com
+2020-08-13 16:34:21,000 - DEBUG - New added url: http://u.163.com/aosoutbdbd8
+2020-08-13 16:34:21,000 - DEBUG - New added url: http://mail.163.com/client/dl.html?from=mail46
+2020-08-13 16:34:21,000 - DEBUG - New added url: http://study.163.com/client/download.htm?from=163app&utm_source=163.com&utm_medium=web_app&utm_campaign=business
+2020-08-13 16:34:21,000 - DEBUG - New added url: javascript:void(0);
+2020-08-13 16:34:21,009 - INFO - Start downloading url: http://mail.163.com/client/dl.html?from=mail46
+2020-08-13 16:34:21,009 - INFO - urlopen: http://mail.163.com/client/dl.html?from=mail46
+2020-08-13 16:34:37,423 - INFO - Got a error while downloading: timed out
+2020-08-13 16:34:37,424 - INFO - http://mail.163.com/client/dl.html?from=mail46has been recorded
+2020-08-13 16:34:37,424 - INFO - This url is NoneType, crawling skipped.
+2020-08-13 16:34:37,424 - INFO - Crawling finished
+2020-08-13 16:34:37,427 - INFO - Crawler has started working. root url: *** http://news.baidu.com/ ***
+2020-08-13 16:34:37,427 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:34:37,427 - INFO - Start comparing ROOT URL: http://news.baidu.com/
+2020-08-13 16:34:37,428 - INFO - Start downloading current HTML: http://news.baidu.com/
+2020-08-13 16:34:37,429 - INFO - urlopen: http://news.baidu.com/
+2020-08-13 16:34:37,550 - INFO - Read data successfully
+2020-08-13 16:34:37,837 - INFO - Start parsing
+2020-08-13 16:34:37,858 - DEBUG - New added url: https://www.baidu.com/
+2020-08-13 16:34:37,859 - DEBUG - New added url: http://tieba.baidu.com/
+2020-08-13 16:34:37,859 - DEBUG - New added url: https://zhidao.baidu.com/
+2020-08-13 16:34:37,859 - DEBUG - New added url: http://music.baidu.com/
+2020-08-13 16:34:37,859 - DEBUG - New added url: http://image.baidu.com/
+2020-08-13 16:34:37,859 - DEBUG - New added url: http://v.baidu.com/
+2020-08-13 16:34:37,859 - DEBUG - New added url: http://map.baidu.com/
+2020-08-13 16:34:37,859 - DEBUG - New added url: http://wenku.baidu.com/
+2020-08-13 16:34:37,859 - DEBUG - New added url: http://news.baidu.com/
+2020-08-13 16:34:37,859 - DEBUG - New added url: http://help.baidu.com
+2020-08-13 16:34:37,861 - INFO - Start downloading url: https://news.cctv.com/2020/08/12/ARTIh7QwSmjDrWnfs6ClY2et200812.shtml
+2020-08-13 16:34:37,862 - INFO - urlopen: https://news.cctv.com/2020/08/12/ARTIh7QwSmjDrWnfs6ClY2et200812.shtml
+2020-08-13 16:34:38,125 - INFO - Read data successfully
+2020-08-13 16:34:38,241 - DEBUG - Found content : 非常时期关键时刻习近平总书记再次点名遏制“舌尖上的浪费”↓↓...
+2020-08-13 16:34:38,241 - INFO - Crawling finished
+2020-08-13 16:34:38,250 - INFO - Excel file outputted.
+2020-08-13 16:38:26,554 - INFO - Crawler has started working. root url: *** https://news.sina.com.cn/ ***
+2020-08-13 16:38:26,555 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:38:26,555 - INFO - Start comparing ROOT URL: https://news.sina.com.cn/
+2020-08-13 16:38:26,555 - INFO - Start downloading current HTML: https://news.sina.com.cn/
+2020-08-13 16:38:26,558 - INFO - urlopen: https://news.sina.com.cn/
+2020-08-13 16:38:28,357 - INFO - Read data successfully
+2020-08-13 16:38:29,915 - INFO - Start parsing
+2020-08-13 16:38:30,098 - DEBUG - New added url: http://www.sina.com.cn/
+2020-08-13 16:38:30,098 - DEBUG - New added url: https://news.sina.com.cn/#jump0
+2020-08-13 16:38:30,098 - DEBUG - New added url: http://news.sina.com.cn/
+2020-08-13 16:38:30,098 - DEBUG - New added url: http://mil.news.sina.com.cn/
+2020-08-13 16:38:30,098 - DEBUG - New added url: https://news.sina.com.cn/china/
+2020-08-13 16:38:30,098 - DEBUG - New added url: http://news.sina.com.cn/world/
+2020-08-13 16:38:30,098 - DEBUG - New added url: http://finance.sina.com.cn/
+2020-08-13 16:38:30,098 - DEBUG - New added url: http://finance.sina.com.cn/stock/
+2020-08-13 16:38:30,098 - DEBUG - New added url: http://finance.sina.com.cn/fund/
+2020-08-13 16:38:30,098 - DEBUG - New added url: http://finance.sina.com.cn/forex/
+2020-08-13 16:38:30,121 - INFO - Start downloading url: http://auto.sina.com.cn/newcar/index.d.html
+2020-08-13 16:38:30,122 - INFO - urlopen: http://auto.sina.com.cn/newcar/index.d.html
+2020-08-13 16:38:30,887 - INFO - Read data successfully
+2020-08-13 16:38:31,752 - DEBUG - Found content : 2020-08-12刚上市斯派卡车型频道2020-08-13...
+2020-08-13 16:38:31,753 - INFO - Crawling finished
+2020-08-13 16:38:31,755 - INFO - Crawler has started working. root url: *** http://www.people.com.cn/ ***
+2020-08-13 16:38:31,755 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:38:31,755 - INFO - Start comparing ROOT URL: http://www.people.com.cn/
+2020-08-13 16:38:31,755 - INFO - Start downloading current HTML: http://www.people.com.cn/
+2020-08-13 16:38:31,756 - INFO - urlopen: http://www.people.com.cn/
+2020-08-13 16:38:31,865 - INFO - Read data successfully
+2020-08-13 16:38:32,708 - INFO - Start parsing
+2020-08-13 16:38:32,783 - DEBUG - New added url: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-13 16:38:32,783 - DEBUG - New added url: http://www.people.com.cn/
+2020-08-13 16:38:32,783 - DEBUG - New added url: http://www.people.com.cn/
+2020-08-13 16:38:32,784 - DEBUG - New added url: http://cpc.people.com.cn/
+2020-08-13 16:38:32,784 - DEBUG - New added url: http://liuyan.people.com.cn/
+2020-08-13 16:38:32,784 - DEBUG - New added url: http://paper.people.com.cn/rmrb/index.html
+2020-08-13 16:38:32,784 - DEBUG - New added url: http://paper.people.com.cn/rmrbhwb/paperindex.htm
+2020-08-13 16:38:32,784 - DEBUG - New added url: http://www.cnautonews.com/
+2020-08-13 16:38:32,784 - DEBUG - New added url: http://paper.people.com.cn/zgnyb/paperindex.htm
+2020-08-13 16:38:32,784 - DEBUG - New added url: http://www.marketdaily.com.cn/
+2020-08-13 16:38:32,793 - INFO - Start downloading url: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-13 16:38:32,794 - INFO - urlopen: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-13 16:38:32,943 - INFO - Read data successfully
+2020-08-13 16:38:33,189 - DEBUG - Found content : ½²»°È«ÎÄ ÈËÃñÈÕ±¨£ºÈÈÑªÖý¾ÍµÄÀ...
+2020-08-13 16:38:33,189 - INFO - Crawling finished
+2020-08-13 16:38:33,191 - INFO - Crawler has started working. root url: *** https://news.163.com/ ***
+2020-08-13 16:38:33,191 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:38:33,191 - INFO - Start comparing ROOT URL: https://news.163.com/
+2020-08-13 16:38:33,191 - INFO - Start downloading current HTML: https://news.163.com/
+2020-08-13 16:38:33,192 - INFO - urlopen: https://news.163.com/
+2020-08-13 16:38:33,351 - INFO - Read data successfully
+2020-08-13 16:38:34,404 - INFO - Start parsing
+2020-08-13 16:38:34,486 - DEBUG - New added url: http://www.163.com/
+2020-08-13 16:38:34,487 - DEBUG - New added url: http://www.163.com/#f=topnav
+2020-08-13 16:38:34,487 - DEBUG - New added url: http://m.163.com/newsapp/#f=topnav
+2020-08-13 16:38:34,487 - DEBUG - New added url: http://open.163.com/#f=topnav
+2020-08-13 16:38:34,487 - DEBUG - New added url: https://hongcai.163.com/?from=pcsy-button
+2020-08-13 16:38:34,487 - DEBUG - New added url: https://gulu.163.com
+2020-08-13 16:38:34,487 - DEBUG - New added url: http://u.163.com/aosoutbdbd8
+2020-08-13 16:38:34,487 - DEBUG - New added url: http://mail.163.com/client/dl.html?from=mail46
+2020-08-13 16:38:34,487 - DEBUG - New added url: http://study.163.com/client/download.htm?from=163app&utm_source=163.com&utm_medium=web_app&utm_campaign=business
+2020-08-13 16:38:34,487 - DEBUG - New added url: javascript:void(0);
+2020-08-13 16:38:34,496 - INFO - http://mail.163.com/client/dl.html?from=mail46 has HTTP ERROR
+2020-08-13 16:38:34,497 - INFO - Crawling finished
+2020-08-13 16:38:34,498 - INFO - Crawler has started working. root url: *** http://news.baidu.com/ ***
+2020-08-13 16:38:34,498 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:38:34,499 - INFO - Start comparing ROOT URL: http://news.baidu.com/
+2020-08-13 16:38:34,499 - INFO - Start downloading current HTML: http://news.baidu.com/
+2020-08-13 16:38:34,499 - INFO - urlopen: http://news.baidu.com/
+2020-08-13 16:38:34,599 - INFO - Read data successfully
+2020-08-13 16:38:34,913 - INFO - Start parsing
+2020-08-13 16:38:34,935 - DEBUG - New added url: https://www.baidu.com/
+2020-08-13 16:38:34,935 - DEBUG - New added url: http://tieba.baidu.com/
+2020-08-13 16:38:34,935 - DEBUG - New added url: https://zhidao.baidu.com/
+2020-08-13 16:38:34,935 - DEBUG - New added url: http://music.baidu.com/
+2020-08-13 16:38:34,935 - DEBUG - New added url: http://image.baidu.com/
+2020-08-13 16:38:34,935 - DEBUG - New added url: http://v.baidu.com/
+2020-08-13 16:38:34,935 - DEBUG - New added url: http://map.baidu.com/
+2020-08-13 16:38:34,935 - DEBUG - New added url: http://wenku.baidu.com/
+2020-08-13 16:38:34,935 - DEBUG - New added url: http://news.baidu.com/
+2020-08-13 16:38:34,935 - DEBUG - New added url: http://help.baidu.com
+2020-08-13 16:38:34,938 - INFO - Start downloading url: https://news.cctv.com/2020/08/12/ARTIh7QwSmjDrWnfs6ClY2et200812.shtml
+2020-08-13 16:38:34,939 - INFO - urlopen: https://news.cctv.com/2020/08/12/ARTIh7QwSmjDrWnfs6ClY2et200812.shtml
+2020-08-13 16:38:35,230 - INFO - Read data successfully
+2020-08-13 16:38:35,351 - DEBUG - Found content : 非常时期关键时刻习近平总书记再次点名遏制“舌尖上的浪费”↓↓...
+2020-08-13 16:38:35,351 - INFO - Crawling finished
+2020-08-13 16:38:54,425 - INFO - Crawler has started working. root url: *** https://news.sina.com.cn/ ***
+2020-08-13 16:38:54,425 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:38:54,425 - INFO - Start comparing ROOT URL: https://news.sina.com.cn/
+2020-08-13 16:38:54,426 - INFO - Start downloading current HTML: https://news.sina.com.cn/
+2020-08-13 16:38:54,428 - INFO - urlopen: https://news.sina.com.cn/
+2020-08-13 16:38:54,493 - INFO - Read data successfully
+2020-08-13 16:38:55,981 - INFO - Start parsing
+2020-08-13 16:38:56,170 - DEBUG - New added url: http://www.sina.com.cn/
+2020-08-13 16:38:56,170 - DEBUG - New added url: https://news.sina.com.cn/#jump0
+2020-08-13 16:38:56,170 - DEBUG - New added url: http://news.sina.com.cn/
+2020-08-13 16:38:56,170 - DEBUG - New added url: http://mil.news.sina.com.cn/
+2020-08-13 16:38:56,170 - DEBUG - New added url: https://news.sina.com.cn/china/
+2020-08-13 16:38:56,171 - DEBUG - New added url: http://news.sina.com.cn/world/
+2020-08-13 16:38:56,171 - DEBUG - New added url: http://finance.sina.com.cn/
+2020-08-13 16:38:56,171 - DEBUG - New added url: http://finance.sina.com.cn/stock/
+2020-08-13 16:38:56,171 - DEBUG - New added url: http://finance.sina.com.cn/fund/
+2020-08-13 16:38:56,171 - DEBUG - New added url: http://finance.sina.com.cn/forex/
+2020-08-13 16:38:56,195 - INFO - Start downloading url: http://auto.sina.com.cn/newcar/index.d.html
+2020-08-13 16:38:56,196 - INFO - urlopen: http://auto.sina.com.cn/newcar/index.d.html
+2020-08-13 16:38:56,244 - INFO - Read data successfully
+2020-08-13 16:38:56,981 - DEBUG - Found content : 2020-08-12刚上市斯派卡车型频道2020-08-13...
+2020-08-13 16:38:56,981 - INFO - Crawling finished
+2020-08-13 16:38:57,099 - INFO - Excel file outputted.
+2020-08-13 16:38:57,099 - INFO - Crawler has started working. root url: *** http://www.people.com.cn/ ***
+2020-08-13 16:38:57,099 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:38:57,099 - INFO - Start comparing ROOT URL: http://www.people.com.cn/
+2020-08-13 16:38:57,099 - INFO - Start downloading current HTML: http://www.people.com.cn/
+2020-08-13 16:38:57,100 - INFO - urlopen: http://www.people.com.cn/
+2020-08-13 16:38:57,314 - INFO - Read data successfully
+2020-08-13 16:38:58,183 - INFO - Start parsing
+2020-08-13 16:38:58,262 - DEBUG - New added url: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-13 16:38:58,262 - DEBUG - New added url: http://www.people.com.cn/
+2020-08-13 16:38:58,262 - DEBUG - New added url: http://www.people.com.cn/
+2020-08-13 16:38:58,262 - DEBUG - New added url: http://cpc.people.com.cn/
+2020-08-13 16:38:58,263 - DEBUG - New added url: http://liuyan.people.com.cn/
+2020-08-13 16:38:58,263 - DEBUG - New added url: http://paper.people.com.cn/rmrb/index.html
+2020-08-13 16:38:58,263 - DEBUG - New added url: http://paper.people.com.cn/rmrbhwb/paperindex.htm
+2020-08-13 16:38:58,263 - DEBUG - New added url: http://www.cnautonews.com/
+2020-08-13 16:38:58,263 - DEBUG - New added url: http://paper.people.com.cn/zgnyb/paperindex.htm
+2020-08-13 16:38:58,263 - DEBUG - New added url: http://www.marketdaily.com.cn/
+2020-08-13 16:38:58,273 - INFO - Start downloading url: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-13 16:38:58,273 - INFO - urlopen: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-13 16:38:58,372 - INFO - Read data successfully
+2020-08-13 16:38:58,822 - DEBUG - Found content : ½²»°È«ÎÄ ÈËÃñÈÕ±¨£ºÈÈÑªÖý¾ÍµÄÀ...
+2020-08-13 16:38:58,822 - INFO - Crawling finished
+2020-08-13 16:38:58,874 - INFO - Excel file outputted.
+2020-08-13 16:38:58,874 - INFO - Crawler has started working. root url: *** https://news.163.com/ ***
+2020-08-13 16:38:58,874 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:38:58,874 - INFO - Start comparing ROOT URL: https://news.163.com/
+2020-08-13 16:38:58,874 - INFO - Start downloading current HTML: https://news.163.com/
+2020-08-13 16:38:58,875 - INFO - urlopen: https://news.163.com/
+2020-08-13 16:38:58,974 - INFO - Read data successfully
+2020-08-13 16:39:00,066 - INFO - Start parsing
+2020-08-13 16:39:00,147 - DEBUG - New added url: http://www.163.com/
+2020-08-13 16:39:00,147 - DEBUG - New added url: http://www.163.com/#f=topnav
+2020-08-13 16:39:00,147 - DEBUG - New added url: http://m.163.com/newsapp/#f=topnav
+2020-08-13 16:39:00,147 - DEBUG - New added url: http://open.163.com/#f=topnav
+2020-08-13 16:39:00,147 - DEBUG - New added url: https://hongcai.163.com/?from=pcsy-button
+2020-08-13 16:39:00,147 - DEBUG - New added url: https://gulu.163.com
+2020-08-13 16:39:00,147 - DEBUG - New added url: http://u.163.com/aosoutbdbd8
+2020-08-13 16:39:00,147 - DEBUG - New added url: http://mail.163.com/client/dl.html?from=mail46
+2020-08-13 16:39:00,147 - DEBUG - New added url: http://study.163.com/client/download.htm?from=163app&utm_source=163.com&utm_medium=web_app&utm_campaign=business
+2020-08-13 16:39:00,147 - DEBUG - New added url: javascript:void(0);
+2020-08-13 16:39:00,156 - INFO - http://mail.163.com/client/dl.html?from=mail46 has HTTP ERROR
+2020-08-13 16:39:00,156 - INFO - Crawling finished
+2020-08-13 16:39:00,166 - INFO - Excel file outputted.
+2020-08-13 16:39:00,166 - INFO - Crawler has started working. root url: *** http://news.baidu.com/ ***
+2020-08-13 16:39:00,166 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:39:00,166 - INFO - Start comparing ROOT URL: http://news.baidu.com/
+2020-08-13 16:39:00,166 - INFO - Start downloading current HTML: http://news.baidu.com/
+2020-08-13 16:39:00,167 - INFO - urlopen: http://news.baidu.com/
+2020-08-13 16:39:00,254 - INFO - Read data successfully
+2020-08-13 16:39:00,548 - INFO - Start parsing
+2020-08-13 16:39:00,571 - DEBUG - New added url: https://www.baidu.com/
+2020-08-13 16:39:00,572 - DEBUG - New added url: http://tieba.baidu.com/
+2020-08-13 16:39:00,572 - DEBUG - New added url: https://zhidao.baidu.com/
+2020-08-13 16:39:00,572 - DEBUG - New added url: http://music.baidu.com/
+2020-08-13 16:39:00,572 - DEBUG - New added url: http://image.baidu.com/
+2020-08-13 16:39:00,572 - DEBUG - New added url: http://v.baidu.com/
+2020-08-13 16:39:00,572 - DEBUG - New added url: http://map.baidu.com/
+2020-08-13 16:39:00,572 - DEBUG - New added url: http://wenku.baidu.com/
+2020-08-13 16:39:00,572 - DEBUG - New added url: http://news.baidu.com/
+2020-08-13 16:39:00,572 - DEBUG - New added url: http://help.baidu.com
+2020-08-13 16:39:00,575 - INFO - Start downloading url: https://news.cctv.com/2020/08/12/ARTIh7QwSmjDrWnfs6ClY2et200812.shtml
+2020-08-13 16:39:00,576 - INFO - urlopen: https://news.cctv.com/2020/08/12/ARTIh7QwSmjDrWnfs6ClY2et200812.shtml
+2020-08-13 16:39:00,653 - INFO - Read data successfully
+2020-08-13 16:39:00,761 - DEBUG - Found content : 非常时期关键时刻习近平总书记再次点名遏制“舌尖上的浪费”↓↓...
+2020-08-13 16:39:00,761 - INFO - Crawling finished
+2020-08-13 16:39:00,771 - INFO - Excel file outputted.
+2020-08-13 16:40:33,959 - INFO - Crawler has started working. root url: *** https://news.sina.com.cn/ ***
+2020-08-13 16:40:33,959 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:40:33,960 - INFO - Start comparing ROOT URL: https://news.sina.com.cn/
+2020-08-13 16:40:33,960 - INFO - Start downloading current HTML: https://news.sina.com.cn/
+2020-08-13 16:40:33,962 - INFO - urlopen: https://news.sina.com.cn/
+2020-08-13 16:40:34,041 - INFO - Read data successfully
+2020-08-13 16:40:35,518 - INFO - Start parsing
+2020-08-13 16:40:35,717 - DEBUG - New added url: http://www.sina.com.cn/
+2020-08-13 16:40:35,717 - DEBUG - New added url: https://news.sina.com.cn/#jump0
+2020-08-13 16:40:35,717 - DEBUG - New added url: http://news.sina.com.cn/
+2020-08-13 16:40:35,717 - DEBUG - New added url: http://mil.news.sina.com.cn/
+2020-08-13 16:40:35,717 - DEBUG - New added url: https://news.sina.com.cn/china/
+2020-08-13 16:40:35,717 - DEBUG - New added url: http://news.sina.com.cn/world/
+2020-08-13 16:40:35,717 - DEBUG - New added url: http://finance.sina.com.cn/
+2020-08-13 16:40:35,717 - DEBUG - New added url: http://finance.sina.com.cn/stock/
+2020-08-13 16:40:35,717 - DEBUG - New added url: http://finance.sina.com.cn/fund/
+2020-08-13 16:40:35,717 - DEBUG - New added url: http://finance.sina.com.cn/forex/
+2020-08-13 16:40:35,740 - INFO - Start downloading url: http://auto.sina.com.cn/newcar/index.d.html
+2020-08-13 16:40:35,740 - INFO - urlopen: http://auto.sina.com.cn/newcar/index.d.html
+2020-08-13 16:40:37,605 - INFO - Read data successfully
+2020-08-13 16:40:38,389 - DEBUG - Found content : 2020-08-12刚上市斯派卡车型频道2020-08-13...
+2020-08-13 16:40:38,389 - INFO - Start downloading url: http://m.sina.com.cn/m/sinahome.shtml
+2020-08-13 16:40:38,390 - INFO - urlopen: http://m.sina.com.cn/m/sinahome.shtml
+2020-08-13 16:40:38,563 - INFO - Read data successfully
+2020-08-13 16:40:38,566 - DEBUG - Got a ValueError: content is None
+2020-08-13 16:40:38,566 - INFO - Start downloading url: http://finance.sina.com.cn/mobile/comfinanceweb.shtml?source=xinshou01
+2020-08-13 16:40:38,568 - INFO - urlopen: http://finance.sina.com.cn/mobile/comfinanceweb.shtml?source=xinshou01
+2020-08-13 16:40:38,709 - INFO - Read data successfully
+2020-08-13 16:40:38,994 - DEBUG - Got a ValueError: content is None
+2020-08-13 16:40:38,994 - INFO - Start downloading url: http://m.sina.com.cn/m/sinasport.shtml
+2020-08-13 16:40:38,995 - INFO - urlopen: http://m.sina.com.cn/m/sinasport.shtml
+2020-08-13 16:40:39,244 - INFO - Read data successfully
+2020-08-13 16:40:39,246 - DEBUG - Got a ValueError: content is None
+2020-08-13 16:40:39,246 - INFO - Start downloading url: http://m.sina.com.cn/m/sinaopencourse.shtml
+2020-08-13 16:40:39,247 - INFO - urlopen: http://m.sina.com.cn/m/sinaopencourse.shtml
+2020-08-13 16:40:39,450 - INFO - Read data successfully
+2020-08-13 16:40:39,730 - DEBUG - Found content : 新浪公开课iPad、iPhone、Android新版客户端上...
+2020-08-13 16:40:39,731 - INFO - Start downloading url: http://slide.news.sina.com.cn/slide_1_86058_475000.html
+2020-08-13 16:40:39,731 - INFO - urlopen: http://slide.news.sina.com.cn/slide_1_86058_475000.html
+2020-08-13 16:40:39,886 - INFO - Read data successfully
+2020-08-13 16:40:40,539 - DEBUG - Found content : 已收藏!您可通过新浪首页(www.sina.com.cn)顶...
+2020-08-13 16:40:40,539 - INFO - Start downloading url: http://slide.news.sina.com.cn/slide_1_86058_475000.html
+2020-08-13 16:40:40,540 - INFO - urlopen: http://slide.news.sina.com.cn/slide_1_86058_475000.html
+2020-08-13 16:40:40,592 - INFO - Read data successfully
+2020-08-13 16:40:41,220 - DEBUG - Found content : 已收藏!您可通过新浪首页(www.sina.com.cn)顶...
+2020-08-13 16:40:41,220 - INFO - Start downloading url: http://slide.mil.news.sina.com.cn/c/slide_8_91486_79956.html
+2020-08-13 16:40:41,221 - INFO - urlopen: http://slide.mil.news.sina.com.cn/c/slide_8_91486_79956.html
+2020-08-13 16:40:41,322 - INFO - Read data successfully
+2020-08-13 16:40:42,151 - DEBUG - Found content : 已收藏!您可通过新浪首页(www.sina.com.cn)顶...
+2020-08-13 16:40:42,151 - INFO - Start downloading url: http://slide.mil.news.sina.com.cn/c/slide_8_91486_79956.html
+2020-08-13 16:40:42,152 - INFO - urlopen: http://slide.mil.news.sina.com.cn/c/slide_8_91486_79956.html
+2020-08-13 16:40:42,206 - INFO - Read data successfully
+2020-08-13 16:40:42,951 - DEBUG - Found content : 已收藏!您可通过新浪首页(www.sina.com.cn)顶...
+2020-08-13 16:40:42,951 - INFO - Start downloading url: https://video.sina.com.cn/p/news/2020-08-13/detail-iivhvpwy0730833.d.html
+2020-08-13 16:40:42,952 - INFO - urlopen: https://video.sina.com.cn/p/news/2020-08-13/detail-iivhvpwy0730833.d.html
+2020-08-13 16:40:43,552 - INFO - Read data successfully
+2020-08-13 16:40:43,728 - DEBUG - Found content : 正在加载...请稍等~分享视频地址：本页面地址：复制播放器s...
+2020-08-13 16:40:43,728 - INFO - Crawling finished
+2020-08-13 16:40:43,881 - INFO - Excel file outputted.
+2020-08-13 16:40:43,881 - INFO - Crawler has started working. root url: *** http://www.people.com.cn/ ***
+2020-08-13 16:40:43,881 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:40:43,881 - INFO - Start comparing ROOT URL: http://www.people.com.cn/
+2020-08-13 16:40:43,881 - INFO - Start downloading current HTML: http://www.people.com.cn/
+2020-08-13 16:40:43,882 - INFO - urlopen: http://www.people.com.cn/
+2020-08-13 16:40:44,040 - INFO - Read data successfully
+2020-08-13 16:40:44,906 - INFO - Start parsing
+2020-08-13 16:40:44,986 - DEBUG - New added url: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-13 16:40:44,987 - DEBUG - New added url: http://www.people.com.cn/
+2020-08-13 16:40:44,987 - DEBUG - New added url: http://www.people.com.cn/
+2020-08-13 16:40:44,987 - DEBUG - New added url: http://cpc.people.com.cn/
+2020-08-13 16:40:44,987 - DEBUG - New added url: http://liuyan.people.com.cn/
+2020-08-13 16:40:44,987 - DEBUG - New added url: http://paper.people.com.cn/rmrb/index.html
+2020-08-13 16:40:44,987 - DEBUG - New added url: http://paper.people.com.cn/rmrbhwb/paperindex.htm
+2020-08-13 16:40:44,987 - DEBUG - New added url: http://www.cnautonews.com/
+2020-08-13 16:40:44,987 - DEBUG - New added url: http://paper.people.com.cn/zgnyb/paperindex.htm
+2020-08-13 16:40:44,987 - DEBUG - New added url: http://www.marketdaily.com.cn/
+2020-08-13 16:40:44,999 - INFO - Start downloading url: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-13 16:40:45,000 - INFO - urlopen: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-13 16:40:45,152 - INFO - Read data successfully
+2020-08-13 16:40:45,464 - DEBUG - Found content : ½²»°È«ÎÄ ÈËÃñÈÕ±¨£ºÈÈÑªÖý¾ÍµÄÀ...
+2020-08-13 16:40:45,464 - INFO - Start downloading url: http://paper.people.com.cn/rmrb/index.html
+2020-08-13 16:40:45,465 - INFO - urlopen: http://paper.people.com.cn/rmrb/index.html
+2020-08-13 16:40:46,114 - INFO - Read data successfully
+2020-08-13 16:40:46,116 - DEBUG - Got a ValueError: content is None
+2020-08-13 16:40:46,116 - INFO - Start downloading url: http://history.people.com.cn/GB/198819/index.html
+2020-08-13 16:40:46,117 - INFO - urlopen: http://history.people.com.cn/GB/198819/index.html
+2020-08-13 16:40:46,291 - INFO - Read data successfully
+2020-08-13 16:40:46,423 - DEBUG - Found content : 人民网首页|文史频道|网站地图    1978年12月，党的...
+2020-08-13 16:40:46,424 - INFO - Start downloading url: http://bbs1.people.com.cn/board/2.html
+2020-08-13 16:40:46,426 - INFO - urlopen: http://bbs1.people.com.cn/board/2.html
+2020-08-13 16:40:46,671 - INFO - Read data successfully
+2020-08-13 16:40:48,026 - DEBUG - Found content : 强国社区深入讨论楼主正文显示宽度跟帖显示为跟帖内容主帖显示为...
+2020-08-13 16:40:48,026 - INFO - Start downloading url: http://bbs1.people.com.cn/board/1.html
+2020-08-13 16:40:48,027 - INFO - urlopen: http://bbs1.people.com.cn/board/1.html
+2020-08-13 16:40:48,370 - INFO - Read data successfully
+2020-08-13 16:40:49,073 - DEBUG - Found content : 强国社区强国论坛楼主正文显示宽度跟帖显示为跟帖内容主帖显示为...
+2020-08-13 16:40:49,073 - INFO - Start downloading url: http://www.people.com.cn/GB/138812/index.html
+2020-08-13 16:40:49,074 - INFO - urlopen: http://www.people.com.cn/GB/138812/index.html
+2020-08-13 16:40:49,395 - INFO - Read data successfully
+2020-08-13 16:40:49,689 - DEBUG - Got a ValueError: content is None
+2020-08-13 16:40:49,689 - INFO - Start downloading url: http://cpc.people.com.cn/GB/69112/113427/index.html
+2020-08-13 16:40:49,690 - INFO - urlopen: http://cpc.people.com.cn/GB/69112/113427/index.html
+2020-08-13 16:40:49,835 - INFO - Read data successfully
+2020-08-13 16:40:49,881 - DEBUG - Got a ValueError: content is None
+2020-08-13 16:40:49,881 - INFO - Start downloading url: http://www.chinaql.org/GB/index.html
+2020-08-13 16:40:49,882 - INFO - urlopen: http://www.chinaql.org/GB/index.html
+2020-08-13 16:40:52,778 - INFO - Read data successfully
+2020-08-13 16:40:53,077 - DEBUG - Found content : “侨界十杰”、中国侨联特聘专家钟南山被授予共和国勋章    ...
+2020-08-13 16:40:53,078 - INFO - Start downloading url: http://scitech.people.com.cn/GB/1059/427072/index.html?from=singlemessage&isappinstalled=0
+2020-08-13 16:40:53,078 - INFO - urlopen: http://scitech.people.com.cn/GB/1059/427072/index.html?from=singlemessage&isappinstalled=0
+2020-08-13 16:40:53,393 - INFO - Read data successfully
+2020-08-13 16:40:53,495 - DEBUG - Found content : 9位明星诵读科学家名言向共和国的脊梁致敬[详细]邓中翰：破“...
+2020-08-13 16:40:53,495 - INFO - Start downloading url: http://yunying.people.cn/GB/index.html
+2020-08-13 16:40:53,496 - INFO - urlopen: http://yunying.people.cn/GB/index.html
+2020-08-13 16:40:54,213 - INFO - Read data successfully
+2020-08-13 16:40:54,433 - DEBUG - Found content :       活动在广泛征集参选案例的基础上，通过严格的评审程...
+2020-08-13 16:40:54,433 - INFO - Crawling finished
+2020-08-13 16:40:54,443 - INFO - Excel file outputted.
+2020-08-13 16:40:54,444 - INFO - Crawler has started working. root url: *** https://news.163.com/ ***
+2020-08-13 16:40:54,444 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:40:54,444 - INFO - Start comparing ROOT URL: https://news.163.com/
+2020-08-13 16:40:54,444 - INFO - Start downloading current HTML: https://news.163.com/
+2020-08-13 16:40:54,445 - INFO - urlopen: https://news.163.com/
+2020-08-13 16:40:54,582 - INFO - Read data successfully
+2020-08-13 16:40:55,627 - INFO - Start parsing
+2020-08-13 16:40:55,718 - DEBUG - New added url: http://www.163.com/
+2020-08-13 16:40:55,718 - DEBUG - New added url: http://www.163.com/#f=topnav
+2020-08-13 16:40:55,718 - DEBUG - New added url: http://m.163.com/newsapp/#f=topnav
+2020-08-13 16:40:55,718 - DEBUG - New added url: http://open.163.com/#f=topnav
+2020-08-13 16:40:55,718 - DEBUG - New added url: https://hongcai.163.com/?from=pcsy-button
+2020-08-13 16:40:55,718 - DEBUG - New added url: https://gulu.163.com
+2020-08-13 16:40:55,718 - DEBUG - New added url: http://u.163.com/aosoutbdbd8
+2020-08-13 16:40:55,718 - DEBUG - New added url: http://mail.163.com/client/dl.html?from=mail46
+2020-08-13 16:40:55,718 - DEBUG - New added url: http://study.163.com/client/download.htm?from=163app&utm_source=163.com&utm_medium=web_app&utm_campaign=business
+2020-08-13 16:40:55,718 - DEBUG - New added url: javascript:void(0);
+2020-08-13 16:40:55,728 - INFO - http://mail.163.com/client/dl.html?from=mail46 has HTTP ERROR
+2020-08-13 16:40:55,728 - INFO - http://mail.163.com/client/dl.html?from=mail46 has HTTP ERROR
+2020-08-13 16:40:55,728 - INFO - Start downloading url: http://open.163.com/special/School/beida.html#ftopnav6
+2020-08-13 16:40:55,729 - INFO - urlopen: http://open.163.com/special/School/beida.html#ftopnav6
+2020-08-13 16:40:55,853 - INFO - Read data successfully
+2020-08-13 16:40:56,225 - DEBUG - Found content : ±±¾©´óÑ§(Peking University)Îª½...
+2020-08-13 16:40:56,226 - INFO - Start downloading url: https://act.you.163.com/act/pub/ABuyLQKNmKmK.html?from=planEE460F5FA536DE23plan&channel_type=2
+2020-08-13 16:40:56,226 - INFO - urlopen: https://act.you.163.com/act/pub/ABuyLQKNmKmK.html?from=planEE460F5FA536DE23plan&channel_type=2
+2020-08-13 16:40:56,428 - INFO - Read data successfully
+2020-08-13 16:40:58,140 - DEBUG - Found content : 在线客服回顶部...
+2020-08-13 16:40:58,140 - INFO - Start downloading url: http://mail.163.com/dashi/dlpro.html?from=mail46
+2020-08-13 16:40:58,141 - INFO - urlopen: http://mail.163.com/dashi/dlpro.html?from=mail46
+2020-08-13 16:40:58,304 - INFO - Read data successfully
+2020-08-13 16:40:58,330 - DEBUG - Got a ValueError: content is None
+2020-08-13 16:40:58,330 - INFO - Start downloading url: http://data.163.com/20/0809/20/FJK5TG1C000181IU.html
+2020-08-13 16:40:58,331 - INFO - urlopen: http://data.163.com/20/0809/20/FJK5TG1C000181IU.html
+2020-08-13 16:40:58,605 - INFO - Read data successfully
+2020-08-13 16:40:59,374 - DEBUG - Found content : 2020-08-09 20:01:080 ÈË²ÎÓëÌÖÂ...
+2020-08-13 16:40:59,374 - INFO - Start downloading url: http://data.163.com/20/0802/17/FJ1T818G000181IU.html
+2020-08-13 16:40:59,375 - INFO - urlopen: http://data.163.com/20/0802/17/FJ1T818G000181IU.html
+2020-08-13 16:40:59,744 - INFO - Read data successfully
+2020-08-13 16:41:00,562 - DEBUG - Found content : 2020-08-02 17:43:160 ÈË²ÎÓëÌÖÂ...
+2020-08-13 16:41:00,562 - INFO - Start downloading url: http://data.163.com/20/0802/17/FJ1T7NCI00019GOE.html
+2020-08-13 16:41:00,563 - INFO - urlopen: http://data.163.com/20/0802/17/FJ1T7NCI00019GOE.html
+2020-08-13 16:41:00,813 - INFO - Read data successfully
+2020-08-13 16:41:04,306 - DEBUG - Found content : 用微信扫码二维码分享至好友和朋友圈大家好我是谢毛毛今天，我们...
+2020-08-13 16:41:04,307 - INFO - Start downloading url: http://renjian.163.com/20/0813/11/FJTH3LLP000181RV.html
+2020-08-13 16:41:04,307 - INFO - urlopen: http://renjian.163.com/20/0813/11/FJTH3LLP000181RV.html
+2020-08-13 16:41:04,558 - INFO - Read data successfully
+2020-08-13 16:41:05,271 - DEBUG - Found content : 2019年我在温哥华一家中文媒体工作时，报社策划一个深度报道...
+2020-08-13 16:41:05,272 - INFO - Start downloading url: http://renjian.163.com/20/0812/10/FJQU0FSO000181RV.html
+2020-08-13 16:41:05,272 - INFO - urlopen: http://renjian.163.com/20/0812/10/FJQU0FSO000181RV.html
+2020-08-13 16:41:05,395 - INFO - Read data successfully
+2020-08-13 16:41:05,971 - DEBUG - Found content : 前言我是一位心理治疗师。在一家精神专科医院就职，为精神疾病患...
+2020-08-13 16:41:05,972 - INFO - Crawling finished
+2020-08-13 16:41:05,983 - INFO - Excel file outputted.
+2020-08-13 16:41:05,983 - INFO - Crawler has started working. root url: *** http://news.baidu.com/ ***
+2020-08-13 16:41:05,984 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:41:05,984 - INFO - Start comparing ROOT URL: http://news.baidu.com/
+2020-08-13 16:41:05,984 - INFO - Start downloading current HTML: http://news.baidu.com/
+2020-08-13 16:41:05,984 - INFO - urlopen: http://news.baidu.com/
+2020-08-13 16:41:06,076 - INFO - Read data successfully
+2020-08-13 16:41:06,413 - INFO - Start parsing
+2020-08-13 16:41:06,433 - DEBUG - New added url: https://www.baidu.com/
+2020-08-13 16:41:06,434 - DEBUG - New added url: http://tieba.baidu.com/
+2020-08-13 16:41:06,434 - DEBUG - New added url: https://zhidao.baidu.com/
+2020-08-13 16:41:06,434 - DEBUG - New added url: http://music.baidu.com/
+2020-08-13 16:41:06,434 - DEBUG - New added url: http://image.baidu.com/
+2020-08-13 16:41:06,434 - DEBUG - New added url: http://v.baidu.com/
+2020-08-13 16:41:06,434 - DEBUG - New added url: http://map.baidu.com/
+2020-08-13 16:41:06,434 - DEBUG - New added url: http://wenku.baidu.com/
+2020-08-13 16:41:06,434 - DEBUG - New added url: http://news.baidu.com/
+2020-08-13 16:41:06,434 - DEBUG - New added url: http://help.baidu.com
+2020-08-13 16:41:06,437 - INFO - Start downloading url: https://news.cctv.com/2020/08/12/ARTIh7QwSmjDrWnfs6ClY2et200812.shtml
+2020-08-13 16:41:06,437 - INFO - urlopen: https://news.cctv.com/2020/08/12/ARTIh7QwSmjDrWnfs6ClY2et200812.shtml
+2020-08-13 16:41:06,922 - INFO - Read data successfully
+2020-08-13 16:41:07,025 - DEBUG - Found content : 非常时期关键时刻习近平总书记再次点名遏制“舌尖上的浪费”↓↓...
+2020-08-13 16:41:07,025 - INFO - Start downloading url: http://cpc.people.com.cn/n1/2020/0812/c164113-31819851.html
+2020-08-13 16:41:07,025 - INFO - urlopen: http://cpc.people.com.cn/n1/2020/0812/c164113-31819851.html
+2020-08-13 16:41:07,182 - INFO - Read data successfully
+2020-08-13 16:41:07,372 - DEBUG - Found content : 高层动态干部论坛人事理论党建群团独家视频部委信息领导活动反腐...
+2020-08-13 16:41:07,372 - INFO - Start downloading url: http://news.cnr.cn/native/gd/20200813/t20200813_525203593.shtml
+2020-08-13 16:41:07,373 - INFO - urlopen: http://news.cnr.cn/native/gd/20200813/t20200813_525203593.shtml
+2020-08-13 16:41:07,640 - INFO - Read data successfully
+2020-08-13 16:41:07,787 - DEBUG - Found content : 　　习近平：加快老区苏区发展，要有长远眼光，多做经济发展和生...
+2020-08-13 16:41:07,787 - INFO - Start downloading url: https://news.cctv.com/2020/08/12/ARTIwJwzBoYP9GDhK7x6X2su200812.shtml
+2020-08-13 16:41:07,788 - INFO - urlopen: https://news.cctv.com/2020/08/12/ARTIwJwzBoYP9GDhK7x6X2su200812.shtml
+2020-08-13 16:41:08,252 - INFO - Read data successfully
+2020-08-13 16:41:09,198 - DEBUG - Found content : 网页　　央视网消息（新闻联播）：眼下，各地产粮区抓农时、抢进...
+2020-08-13 16:41:09,198 - INFO - Start downloading url: http://cpc.people.com.cn/n1/2020/0813/c164113-31820527.html
+2020-08-13 16:41:09,199 - INFO - urlopen: http://cpc.people.com.cn/n1/2020/0813/c164113-31820527.html
+2020-08-13 16:41:09,379 - INFO - Read data successfully
+2020-08-13 16:41:09,478 - DEBUG - Found content : 高层动态干部论坛人事理论党建群团独家视频部委信息领导活动反腐...
+2020-08-13 16:41:09,478 - INFO - Start downloading url: http://app.cctv.com/special/cportal/detail/arti/index.html?id=Artii3xjWe0WuwwkDxSiy6MO200811&fromapp=cctvnews&version=807&allow_comment=1&allow_comment=1
+2020-08-13 16:41:09,479 - INFO - urlopen: http://app.cctv.com/special/cportal/detail/arti/index.html?id=Artii3xjWe0WuwwkDxSiy6MO200811&fromapp=cctvnews&version=807&allow_comment=1&allow_comment=1
+2020-08-13 16:41:09,859 - INFO - Read data successfully
+2020-08-13 16:41:10,168 - DEBUG - Found content : 查看更多评论请先下载客户端了解最新资讯和新闻...
+2020-08-13 16:41:10,169 - INFO - Start downloading url: http://app.cctv.com/special/cportal/detail/arti/index.html?id=ArtiYvIhCmTt7rMqFLbC6val200811&fromapp=cctvnews&version=807&allow_comment=1&allow_comment=1
+2020-08-13 16:41:10,169 - INFO - urlopen: http://app.cctv.com/special/cportal/detail/arti/index.html?id=ArtiYvIhCmTt7rMqFLbC6val200811&fromapp=cctvnews&version=807&allow_comment=1&allow_comment=1
+2020-08-13 16:41:10,328 - INFO - Read data successfully
+2020-08-13 16:41:10,622 - DEBUG - Found content : 查看更多评论请先下载客户端了解最新资讯和新闻...
+2020-08-13 16:41:10,623 - INFO - Start downloading url: http://m.top.cnr.cn/bdxw/20200813/t20200813_525204210.html
+2020-08-13 16:41:10,623 - INFO - urlopen: http://m.top.cnr.cn/bdxw/20200813/t20200813_525204210.html
+2020-08-13 16:41:10,805 - INFO - Read data successfully
+2020-08-13 16:41:10,986 - DEBUG - Found content : 司机叫嚣行人：把你撞死我有保险又见路怒症 男子违章竟掏出一米...
+2020-08-13 16:41:10,986 - INFO - Start downloading url: http://m.top.cnr.cn/bdxw/20200813/t20200813_525204205.html
+2020-08-13 16:41:10,987 - INFO - urlopen: http://m.top.cnr.cn/bdxw/20200813/t20200813_525204205.html
+2020-08-13 16:41:11,115 - INFO - Read data successfully
+2020-08-13 16:41:11,356 - DEBUG - Found content : 司机叫嚣行人：把你撞死我有保险又见路怒症 男子违章竟掏出一米...
+2020-08-13 16:41:11,356 - INFO - Start downloading url: http://m.top.cnr.cn/bdxw/20200813/t20200813_525204209.html
+2020-08-13 16:41:11,356 - INFO - urlopen: http://m.top.cnr.cn/bdxw/20200813/t20200813_525204209.html
+2020-08-13 16:41:11,435 - INFO - Read data successfully
+2020-08-13 16:41:11,641 - DEBUG - Found content : 司机叫嚣行人：把你撞死我有保险又见路怒症 男子违章竟掏出一米...
+2020-08-13 16:41:11,641 - INFO - Crawling finished
+2020-08-13 16:41:11,654 - INFO - Excel file outputted.
+2020-08-13 16:52:14,248 - INFO - Crawler has started working. root url: *** https://news.sina.com.cn/ ***
+2020-08-13 16:52:14,248 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:52:14,248 - INFO - Start comparing ROOT URL: https://news.sina.com.cn/
+2020-08-13 16:52:14,248 - INFO - Start downloading current HTML: https://news.sina.com.cn/
+2020-08-13 16:52:14,250 - INFO - urlopen: https://news.sina.com.cn/
+2020-08-13 16:52:14,330 - INFO - Read data successfully
+2020-08-13 16:52:15,864 - INFO - Start parsing
+2020-08-13 16:52:16,111 - DEBUG - New added url: http://www.sina.com.cn/
+2020-08-13 16:52:16,111 - DEBUG - New added url: https://news.sina.com.cn/#jump0
+2020-08-13 16:52:16,111 - DEBUG - New added url: http://news.sina.com.cn/
+2020-08-13 16:52:16,111 - DEBUG - New added url: http://mil.news.sina.com.cn/
+2020-08-13 16:52:16,111 - DEBUG - New added url: https://news.sina.com.cn/china/
+2020-08-13 16:52:16,111 - DEBUG - New added url: http://news.sina.com.cn/world/
+2020-08-13 16:52:16,111 - DEBUG - New added url: http://finance.sina.com.cn/
+2020-08-13 16:52:16,111 - DEBUG - New added url: http://finance.sina.com.cn/stock/
+2020-08-13 16:52:16,111 - DEBUG - New added url: http://finance.sina.com.cn/fund/
+2020-08-13 16:52:16,111 - DEBUG - New added url: http://finance.sina.com.cn/forex/
+2020-08-13 16:52:16,134 - INFO - Start downloading url: http://auto.sina.com.cn/newcar/index.d.html
+2020-08-13 16:52:16,135 - INFO - urlopen: http://auto.sina.com.cn/newcar/index.d.html
+2020-08-13 16:52:22,071 - INFO - Read data successfully
+2020-08-13 16:52:22,891 - DEBUG - Found content : 2020-08-12刚上市斯派卡车型频道2020-08-13...
+2020-08-13 16:52:22,891 - INFO - Start downloading url: http://m.sina.com.cn/m/sinahome.shtml
+2020-08-13 16:52:22,892 - INFO - urlopen: http://m.sina.com.cn/m/sinahome.shtml
+2020-08-13 16:52:23,131 - INFO - Read data successfully
+2020-08-13 16:52:23,133 - DEBUG - Got a ValueError: content is None
+2020-08-13 16:52:23,133 - INFO - Start downloading url: http://finance.sina.com.cn/mobile/comfinanceweb.shtml?source=xinshou01
+2020-08-13 16:52:23,134 - INFO - urlopen: http://finance.sina.com.cn/mobile/comfinanceweb.shtml?source=xinshou01
+2020-08-13 16:52:23,256 - INFO - Read data successfully
+2020-08-13 16:52:23,501 - DEBUG - Got a ValueError: content is None
+2020-08-13 16:52:23,501 - INFO - Start downloading url: http://m.sina.com.cn/m/sinasport.shtml
+2020-08-13 16:52:23,502 - INFO - urlopen: http://m.sina.com.cn/m/sinasport.shtml
+2020-08-13 16:52:23,709 - INFO - Read data successfully
+2020-08-13 16:52:23,710 - DEBUG - Got a ValueError: content is None
+2020-08-13 16:52:23,711 - INFO - Start downloading url: http://m.sina.com.cn/m/sinaopencourse.shtml
+2020-08-13 16:52:23,712 - INFO - urlopen: http://m.sina.com.cn/m/sinaopencourse.shtml
+2020-08-13 16:52:24,018 - INFO - Read data successfully
+2020-08-13 16:52:24,299 - DEBUG - Found content : 新浪公开课iPad、iPhone、Android新版客户端上...
+2020-08-13 16:52:24,299 - INFO - Crawling finished
+2020-08-13 16:52:24,301 - INFO - Crawler has started working. root url: *** http://www.people.com.cn/ ***
+2020-08-13 16:52:24,301 - INFO - 404.txt exist, located in ./temp/404.txt
+2020-08-13 16:52:24,302 - INFO - Start comparing ROOT URL: http://www.people.com.cn/
+2020-08-13 16:52:24,302 - INFO - Start downloading current HTML: http://www.people.com.cn/
+2020-08-13 16:52:24,302 - INFO - urlopen: http://www.people.com.cn/
+2020-08-13 16:52:24,626 - INFO - Read data successfully
+2020-08-13 16:52:25,499 - INFO - Start parsing
+2020-08-13 16:52:25,573 - DEBUG - New added url: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-13 16:52:25,573 - DEBUG - New added url: http://www.people.com.cn/
+2020-08-13 16:52:25,573 - DEBUG - New added url: http://www.people.com.cn/
+2020-08-13 16:52:25,573 - DEBUG - New added url: http://cpc.people.com.cn/
+2020-08-13 16:52:25,573 - DEBUG - New added url: http://liuyan.people.com.cn/
+2020-08-13 16:52:25,573 - DEBUG - New added url: http://paper.people.com.cn/rmrb/index.html
+2020-08-13 16:52:25,573 - DEBUG - New added url: http://paper.people.com.cn/rmrbhwb/paperindex.htm
+2020-08-13 16:52:25,573 - DEBUG - New added url: http://www.cnautonews.com/
+2020-08-13 16:52:25,573 - DEBUG - New added url: http://paper.people.com.cn/zgnyb/paperindex.htm
+2020-08-13 16:52:25,573 - DEBUG - New added url: http://www.marketdaily.com.cn/
+2020-08-13 16:52:25,583 - INFO - Start downloading url: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-13 16:52:25,584 - INFO - urlopen: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-13 16:52:26,112 - INFO - Read data successfully
+2020-08-13 16:52:26,361 - DEBUG - Found content : ½²»°È«ÎÄ ÈËÃñÈÕ±¨£ºÈÈÑªÖý¾ÍµÄÀ...
+2020-08-13 16:52:26,361 - INFO - Start downloading url: http://paper.people.com.cn/rmrb/index.html
+2020-08-13 16:52:26,362 - INFO - urlopen: http://paper.people.com.cn/rmrb/index.html
+2020-08-13 16:52:26,941 - INFO - Read data successfully
+2020-08-13 16:52:26,943 - DEBUG - Got a ValueError: content is None
+2020-08-13 16:52:26,943 - INFO - Start downloading url: http://history.people.com.cn/GB/198819/index.html
+2020-08-13 16:52:26,945 - INFO - urlopen: http://history.people.com.cn/GB/198819/index.html
+2020-08-13 16:52:27,344 - INFO - Read data successfully
+2020-08-13 16:52:27,457 - DEBUG - Found content : 人民网首页|文史频道|网站地图    1978年12月，党的...
+2020-08-13 16:52:27,457 - INFO - Start downloading url: http://bbs1.people.com.cn/board/2.html
+2020-08-13 16:52:27,458 - INFO - urlopen: http://bbs1.people.com.cn/board/2.html
+2020-08-13 16:52:27,919 - INFO - Read data successfully
+2020-08-13 16:52:29,503 - DEBUG - Found content : 强国社区深入讨论楼主正文显示宽度跟帖显示为跟帖内容主帖显示为...
+2020-08-13 16:52:29,503 - INFO - Start downloading url: http://bbs1.people.com.cn/board/1.html
+2020-08-13 16:52:29,504 - INFO - urlopen: http://bbs1.people.com.cn/board/1.html
+2020-08-13 16:52:29,695 - INFO - Read data successfully
+2020-08-13 16:52:30,286 - DEBUG - Found content : 强国社区强国论坛楼主正文显示宽度跟帖显示为跟帖内容主帖显示为...
+2020-08-13 16:52:30,287 - INFO - Crawling finished

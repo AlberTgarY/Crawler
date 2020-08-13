@@ -11,7 +11,7 @@ from Logger import get_log
 
 # 读取配置文件
 config = configparser.RawConfigParser()
-config.read("cfg.ini")
+config.read("./temp/cfg.ini")
 logger = get_log()
 
 def compare(url, file_name):
@@ -69,6 +69,8 @@ class HtmlParser(object):
     # 获取页面中想要的 DATA
     def _get_new_data(self, page_url, soup):
 
+        INVALID_URL_TXT_PATH = str(config.get("path", "txt_path"))
+        # download html
         self.downloader = html_downloader.HtmlDownloader()
         res_data = {'url': page_url}
         count = int(config.get("crawler", "craw_data_num"))
@@ -82,7 +84,7 @@ class HtmlParser(object):
             for n in summary_node:
                 count = count - 1
                 if count >= 0:
-                    result = compare(n['href'], '404.txt')
+                    result = compare(n['href'], INVALID_URL_TXT_PATH)
                     if not result:
                         # start crawling
                         logger.info("Start downloading url: " + n['href'])

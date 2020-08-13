@@ -1,0 +1,505 @@
+2020-08-12 19:50:32,964 - INFO - Crawler has started working.
+2020-08-12 19:50:32,964 - INFO - 404.txt created.
+2020-08-12 19:50:32,964 - INFO - Start comparing ROOT URL: http://www.people.com.cn/
+2020-08-12 19:50:32,965 - INFO - Start downloading current HTML: http://www.people.com.cn/
+2020-08-12 19:50:32,966 - INFO - urlopen: http://www.people.com.cn/
+2020-08-12 19:50:33,063 - INFO - Read data successfully
+2020-08-12 19:50:33,910 - INFO - Start parsing
+2020-08-12 19:50:33,994 - DEBUG - New added url: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-12 19:50:33,994 - DEBUG - New added url: http://www.people.com.cn/
+2020-08-12 19:50:33,994 - DEBUG - New added url: http://www.people.com.cn/
+2020-08-12 19:50:33,994 - DEBUG - New added url: http://cpc.people.com.cn/
+2020-08-12 19:50:33,994 - DEBUG - New added url: http://liuyan.people.com.cn/
+2020-08-12 19:50:33,994 - DEBUG - New added url: http://paper.people.com.cn/rmrb/index.html
+2020-08-12 19:50:33,994 - DEBUG - New added url: http://paper.people.com.cn/rmrbhwb/paperindex.htm
+2020-08-12 19:50:33,994 - DEBUG - New added url: http://www.cnautonews.com/
+2020-08-12 19:50:33,994 - DEBUG - New added url: http://paper.people.com.cn/zgnyb/paperindex.htm
+2020-08-12 19:50:33,994 - DEBUG - New added url: http://www.marketdaily.com.cn/
+2020-08-12 19:50:34,004 - INFO - Start downloading url: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-12 19:50:34,005 - INFO - urlopen: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-12 19:50:34,222 - INFO - Read data successfully
+2020-08-12 19:50:34,474 - DEBUG - Found content : ½²»°È«ÎÄ ÈËÃñÈÕ±¨£ºÈÈÑªÖý¾ÍµÄÀ...
+2020-08-12 19:50:34,474 - INFO - Start downloading url: http://paper.people.com.cn/rmrb/index.html
+2020-08-12 19:50:34,475 - INFO - urlopen: http://paper.people.com.cn/rmrb/index.html
+2020-08-12 19:50:35,142 - INFO - Read data successfully
+2020-08-12 19:50:35,145 - DEBUG - Got a ValueError: content is None
+2020-08-12 19:50:35,145 - INFO - Start downloading url: http://history.people.com.cn/GB/198819/index.html
+2020-08-12 19:50:35,147 - INFO - urlopen: http://history.people.com.cn/GB/198819/index.html
+2020-08-12 19:50:35,310 - INFO - Read data successfully
+2020-08-12 19:50:35,428 - DEBUG - Found content : 人民网首页|文史频道|网站地图    1978年12月，党的...
+2020-08-12 19:50:35,428 - INFO - Start downloading url: http://bbs1.people.com.cn/board/2.html
+2020-08-12 19:50:35,429 - INFO - urlopen: http://bbs1.people.com.cn/board/2.html
+2020-08-12 19:50:35,608 - INFO - Read data successfully
+2020-08-12 19:50:36,651 - DEBUG - Found content : 强国社区深入讨论楼主正文显示宽度跟帖显示为跟帖内容主帖显示为...
+2020-08-12 19:50:36,651 - INFO - Start downloading url: http://bbs1.people.com.cn/board/1.html
+2020-08-12 19:50:36,652 - INFO - urlopen: http://bbs1.people.com.cn/board/1.html
+2020-08-12 19:50:36,813 - INFO - Read data successfully
+2020-08-12 19:50:37,388 - DEBUG - Found content : 强国社区强国论坛楼主正文显示宽度跟帖显示为跟帖内容主帖显示为...
+2020-08-12 19:50:37,388 - INFO - Start downloading url: http://www.people.com.cn/GB/138812/index.html
+2020-08-12 19:50:37,389 - INFO - urlopen: http://www.people.com.cn/GB/138812/index.html
+2020-08-12 19:50:37,601 - INFO - Read data successfully
+2020-08-12 19:50:37,802 - DEBUG - Got a ValueError: content is None
+2020-08-12 19:50:37,802 - INFO - Start downloading url: http://cpc.people.com.cn/GB/69112/113427/index.html
+2020-08-12 19:50:37,803 - INFO - urlopen: http://cpc.people.com.cn/GB/69112/113427/index.html
+2020-08-12 19:50:37,893 - INFO - Read data successfully
+2020-08-12 19:50:37,941 - DEBUG - Got a ValueError: content is None
+2020-08-12 19:50:37,941 - INFO - Start downloading url: http://www.chinaql.org/GB/index.html
+2020-08-12 19:50:37,942 - INFO - urlopen: http://www.chinaql.org/GB/index.html
+2020-08-12 19:50:39,436 - INFO - Read data successfully
+2020-08-12 19:50:39,738 - DEBUG - Found content : “侨界十杰”、中国侨联特聘专家钟南山被授予共和国勋章    ...
+2020-08-12 19:50:39,738 - INFO - Start downloading url: http://scitech.people.com.cn/GB/1059/427072/index.html?from=singlemessage&isappinstalled=0
+2020-08-12 19:50:39,739 - INFO - urlopen: http://scitech.people.com.cn/GB/1059/427072/index.html?from=singlemessage&isappinstalled=0
+2020-08-12 19:50:40,052 - INFO - Read data successfully
+2020-08-12 19:50:40,151 - DEBUG - Found content : 9位明星诵读科学家名言向共和国的脊梁致敬[详细]邓中翰：破“...
+2020-08-12 19:50:40,151 - INFO - Start downloading url: http://yunying.people.cn/GB/index.html
+2020-08-12 19:50:40,152 - INFO - urlopen: http://yunying.people.cn/GB/index.html
+2020-08-12 19:50:40,565 - INFO - Read data successfully
+2020-08-12 19:50:40,779 - DEBUG - Found content :       活动在广泛征集参选案例的基础上，通过严格的评审程...
+2020-08-12 19:50:40,780 - INFO - Crawling finished
+2020-08-12 19:50:40,923 - INFO - Excel file outputted.
+2020-08-12 19:50:51,638 - INFO - Crawler has started working.
+2020-08-12 19:50:51,638 - INFO - 404.txt exist, located in temp/404.txt
+2020-08-12 19:50:51,638 - INFO - Start comparing ROOT URL: http://www.people.com.cn/
+2020-08-12 19:50:51,638 - INFO - Start downloading current HTML: http://www.people.com.cn/
+2020-08-12 19:50:51,640 - INFO - urlopen: http://www.people.com.cn/
+2020-08-12 19:50:51,668 - INFO - Read data successfully
+2020-08-12 19:50:52,551 - INFO - Start parsing
+2020-08-12 19:50:52,629 - DEBUG - New added url: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-12 19:50:52,629 - DEBUG - New added url: http://www.people.com.cn/
+2020-08-12 19:50:52,629 - DEBUG - New added url: http://www.people.com.cn/
+2020-08-12 19:50:52,629 - DEBUG - New added url: http://cpc.people.com.cn/
+2020-08-12 19:50:52,629 - DEBUG - New added url: http://liuyan.people.com.cn/
+2020-08-12 19:50:52,629 - DEBUG - New added url: http://paper.people.com.cn/rmrb/index.html
+2020-08-12 19:50:52,629 - DEBUG - New added url: http://paper.people.com.cn/rmrbhwb/paperindex.htm
+2020-08-12 19:50:52,629 - DEBUG - New added url: http://www.cnautonews.com/
+2020-08-12 19:50:52,629 - DEBUG - New added url: http://paper.people.com.cn/zgnyb/paperindex.htm
+2020-08-12 19:50:52,630 - DEBUG - New added url: http://www.marketdaily.com.cn/
+2020-08-12 19:50:52,640 - INFO - Start downloading url: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-12 19:50:52,641 - INFO - urlopen: http://military.people.com.cn/GB/8221/84385/413328/index.html
+2020-08-12 19:50:52,713 - INFO - Read data successfully
+2020-08-12 19:50:52,972 - DEBUG - Found content : ½²»°È«ÎÄ ÈËÃñÈÕ±¨£ºÈÈÑªÖý¾ÍµÄÀ...
+2020-08-12 19:50:52,973 - INFO - Start downloading url: http://paper.people.com.cn/rmrb/index.html
+2020-08-12 19:50:52,973 - INFO - urlopen: http://paper.people.com.cn/rmrb/index.html
+2020-08-12 19:50:53,035 - INFO - Read data successfully
+2020-08-12 19:50:53,037 - DEBUG - Got a ValueError: content is None
+2020-08-12 19:50:53,037 - INFO - Start downloading url: http://history.people.com.cn/GB/198819/index.html
+2020-08-12 19:50:53,039 - INFO - urlopen: http://history.people.com.cn/GB/198819/index.html
+2020-08-12 19:50:53,097 - INFO - Read data successfully
+2020-08-12 19:50:53,214 - DEBUG - Found content : 人民网首页|文史频道|网站地图    1978年12月，党的...
+2020-08-12 19:50:53,214 - INFO - Start downloading url: http://bbs1.people.com.cn/board/2.html
+2020-08-12 19:50:53,214 - INFO - urlopen: http://bbs1.people.com.cn/board/2.html
+2020-08-12 19:50:53,436 - INFO - Read data successfully
+2020-08-12 19:50:54,473 - DEBUG - Found content : 强国社区深入讨论楼主正文显示宽度跟帖显示为跟帖内容主帖显示为...
+2020-08-12 19:50:54,474 - INFO - Start downloading url: http://bbs1.people.com.cn/board/1.html
+2020-08-12 19:50:54,474 - INFO - urlopen: http://bbs1.people.com.cn/board/1.html
+2020-08-12 19:50:54,673 - INFO - Read data successfully
+2020-08-12 19:50:55,250 - DEBUG - Found content : 强国社区强国论坛楼主正文显示宽度跟帖显示为跟帖内容主帖显示为...
+2020-08-12 19:50:55,250 - INFO - Start downloading url: http://www.people.com.cn/GB/138812/index.html
+2020-08-12 19:50:55,251 - INFO - urlopen: http://www.people.com.cn/GB/138812/index.html
+2020-08-12 19:50:55,726 - INFO - Read data successfully
+2020-08-12 19:50:55,926 - DEBUG - Got a ValueError: content is None
+2020-08-12 19:50:55,926 - INFO - Start downloading url: http://cpc.people.com.cn/GB/69112/113427/index.html
+2020-08-12 19:50:55,927 - INFO - urlopen: http://cpc.people.com.cn/GB/69112/113427/index.html
+2020-08-12 19:50:55,992 - INFO - Read data successfully
+2020-08-12 19:50:56,040 - DEBUG - Got a ValueError: content is None
+2020-08-12 19:50:56,040 - INFO - Start downloading url: http://www.chinaql.org/GB/index.html
+2020-08-12 19:50:56,040 - INFO - urlopen: http://www.chinaql.org/GB/index.html
+2020-08-12 19:50:56,302 - INFO - Read data successfully
+2020-08-12 19:50:56,637 - DEBUG - Found content : “侨界十杰”、中国侨联特聘专家钟南山被授予共和国勋章    ...
+2020-08-12 19:50:56,637 - INFO - Start downloading url: http://scitech.people.com.cn/GB/1059/427072/index.html?from=singlemessage&isappinstalled=0
+2020-08-12 19:50:56,638 - INFO - urlopen: http://scitech.people.com.cn/GB/1059/427072/index.html?from=singlemessage&isappinstalled=0
+2020-08-12 19:50:56,703 - INFO - Read data successfully
+2020-08-12 19:50:56,803 - DEBUG - Found content : 9位明星诵读科学家名言向共和国的脊梁致敬[详细]邓中翰：破“...
+2020-08-12 19:50:56,804 - INFO - Start downloading url: http://yunying.people.cn/GB/index.html
+2020-08-12 19:50:56,804 - INFO - urlopen: http://yunying.people.cn/GB/index.html
+2020-08-12 19:50:56,888 - INFO - Read data successfully
+2020-08-12 19:50:57,118 - DEBUG - Found content :       活动在广泛征集参选案例的基础上，通过严格的评审程...
+2020-08-12 19:50:57,118 - INFO - Start downloading url: http://dangshi.people.com.cn/GB/151935/427898/index.html
+2020-08-12 19:50:57,119 - INFO - urlopen: http://dangshi.people.com.cn/GB/151935/427898/index.html
+2020-08-12 19:50:57,364 - INFO - Read data successfully
+2020-08-12 19:50:58,049 - DEBUG - Found content :     ÎÊ´ð»î¶¯ÔÚ2019Äê9ÔÂ24ÈÕÖÁ1...
+2020-08-12 19:50:58,049 - INFO - Start downloading url: http://dangshi.people.com.cn/GB/151935/427898/index.html
+2020-08-12 19:50:58,050 - INFO - urlopen: http://dangshi.people.com.cn/GB/151935/427898/index.html
+2020-08-12 19:50:58,080 - INFO - Read data successfully
+2020-08-12 19:50:58,815 - DEBUG - Found content :     ÎÊ´ð»î¶¯ÔÚ2019Äê9ÔÂ24ÈÕÖÁ1...
+2020-08-12 19:50:58,816 - INFO - Start downloading url: http://dangjian.people.com.cn/GB/136058/417520/index.html
+2020-08-12 19:50:58,816 - INFO - urlopen: http://dangjian.people.com.cn/GB/136058/417520/index.html
+2020-08-12 19:50:59,059 - INFO - Read data successfully
+2020-08-12 19:50:59,112 - DEBUG - Got a ValueError: content is None
+2020-08-12 19:50:59,112 - INFO - Start downloading url: http://dangjian.people.com.cn/GB/136058/425236/index.html
+2020-08-12 19:50:59,113 - INFO - urlopen: http://dangjian.people.com.cn/GB/136058/425236/index.html
+2020-08-12 19:50:59,206 - INFO - Read data successfully
+2020-08-12 19:50:59,278 - DEBUG - Got a ValueError: content is None
+2020-08-12 19:50:59,278 - INFO - Start downloading url: http://unn.people.com.cn/n1/2020/0812/c14717-31819276.html
+2020-08-12 19:50:59,279 - INFO - urlopen: http://unn.people.com.cn/n1/2020/0812/c14717-31819276.html
+2020-08-12 19:50:59,620 - INFO - Read data successfully
+2020-08-12 19:50:59,895 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？白建平 陈立庚【编...
+2020-08-12 19:50:59,896 - INFO - Start downloading url: http://unn.people.com.cn/n1/2020/0811/c14717-31817658.html
+2020-08-12 19:50:59,896 - INFO - urlopen: http://unn.people.com.cn/n1/2020/0811/c14717-31817658.html
+2020-08-12 19:51:00,234 - INFO - Read data successfully
+2020-08-12 19:51:00,713 - DEBUG - Found content : µÇÂ¼ÈËÃñÍøÍ¨ÐÐÖ¤    Á¢¼´×¢²áÍü...
+2020-08-12 19:51:00,713 - INFO - Start downloading url: http://opinion.people.com.cn/n1/2020/0812/c1003-31818912.html
+2020-08-12 19:51:00,714 - INFO - urlopen: http://opinion.people.com.cn/n1/2020/0812/c1003-31818912.html
+2020-08-12 19:51:00,889 - INFO - Read data successfully
+2020-08-12 19:51:01,116 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？本报评论部　　强调...
+2020-08-12 19:51:01,117 - INFO - Start downloading url: http://env.people.com.cn/n1/2020/0808/c1010-31815398.html
+2020-08-12 19:51:01,117 - INFO - urlopen: http://env.people.com.cn/n1/2020/0808/c1010-31815398.html
+2020-08-12 19:51:01,460 - INFO - Read data successfully
+2020-08-12 19:51:01,757 - DEBUG - Found content : µÇÂ¼ÈËÃñÍøÍ¨ÐÐÖ¤    Á¢¼´×¢²áÍü...
+2020-08-12 19:51:01,758 - INFO - Start downloading url: http://leaders.people.com.cn/GB/372900/index.html
+2020-08-12 19:51:01,758 - INFO - urlopen: http://leaders.people.com.cn/GB/372900/index.html
+2020-08-12 19:51:01,959 - INFO - Read data successfully
+2020-08-12 19:51:02,114 - DEBUG - Found content : 多地热议"制止餐饮浪费":小餐桌有大文明,节约从"我"做起　...
+2020-08-12 19:51:02,114 - INFO - Start downloading url: http://pic.people.com.cn/n1/2020/0812/c1016-31820159.html
+2020-08-12 19:51:02,115 - INFO - urlopen: http://pic.people.com.cn/n1/2020/0812/c1016-31820159.html
+2020-08-12 19:51:02,410 - INFO - Read data successfully
+2020-08-12 19:51:02,569 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	2020年8月1...
+2020-08-12 19:51:02,569 - INFO - Start downloading url: http://pic.people.com.cn/n1/2020/0812/c1016-31820159.html
+2020-08-12 19:51:02,570 - INFO - urlopen: http://pic.people.com.cn/n1/2020/0812/c1016-31820159.html
+2020-08-12 19:51:02,596 - INFO - Read data successfully
+2020-08-12 19:51:02,775 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	2020年8月1...
+2020-08-12 19:51:02,775 - INFO - Start downloading url: http://pic.people.com.cn/n1/2020/0812/c1016-31820078.html
+2020-08-12 19:51:02,776 - INFO - urlopen: http://pic.people.com.cn/n1/2020/0812/c1016-31820078.html
+2020-08-12 19:51:02,886 - INFO - Read data successfully
+2020-08-12 19:51:03,081 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	8月12日，45...
+2020-08-12 19:51:03,081 - INFO - Start downloading url: http://pic.people.com.cn/n1/2020/0812/c1016-31820078.html
+2020-08-12 19:51:03,082 - INFO - urlopen: http://pic.people.com.cn/n1/2020/0812/c1016-31820078.html
+2020-08-12 19:51:03,109 - INFO - Read data successfully
+2020-08-12 19:51:03,264 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	8月12日，45...
+2020-08-12 19:51:03,265 - INFO - Start downloading url: http://pic.people.com.cn/n1/2020/0812/c1016-31819075.html
+2020-08-12 19:51:03,265 - INFO - urlopen: http://pic.people.com.cn/n1/2020/0812/c1016-31819075.html
+2020-08-12 19:51:03,363 - INFO - Read data successfully
+2020-08-12 19:51:03,490 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	8月11日，天气...
+2020-08-12 19:51:03,490 - INFO - Start downloading url: http://pic.people.com.cn/n1/2020/0812/c1016-31819075.html
+2020-08-12 19:51:03,491 - INFO - urlopen: http://pic.people.com.cn/n1/2020/0812/c1016-31819075.html
+2020-08-12 19:51:03,522 - INFO - Read data successfully
+2020-08-12 19:51:03,653 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	8月11日，天气...
+2020-08-12 19:51:03,653 - INFO - Start downloading url: http://pic.people.com.cn/n1/2020/0812/c1016-31819505.html
+2020-08-12 19:51:03,654 - INFO - urlopen: http://pic.people.com.cn/n1/2020/0812/c1016-31819505.html
+2020-08-12 19:51:03,917 - INFO - Read data successfully
+2020-08-12 19:51:04,043 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	2020年8月1...
+2020-08-12 19:51:04,044 - INFO - Start downloading url: http://pic.people.com.cn/n1/2020/0812/c1016-31819505.html
+2020-08-12 19:51:04,044 - INFO - urlopen: http://pic.people.com.cn/n1/2020/0812/c1016-31819505.html
+2020-08-12 19:51:04,073 - INFO - Read data successfully
+2020-08-12 19:51:04,198 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	2020年8月1...
+2020-08-12 19:51:04,198 - INFO - Start downloading url: http://pic.people.com.cn/n1/2020/0812/c1016-31819153.html
+2020-08-12 19:51:04,198 - INFO - urlopen: http://pic.people.com.cn/n1/2020/0812/c1016-31819153.html
+2020-08-12 19:51:04,430 - INFO - Read data successfully
+2020-08-12 19:51:04,560 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	2020年8月1...
+2020-08-12 19:51:04,561 - INFO - Start downloading url: http://pic.people.com.cn/n1/2020/0812/c1016-31819153.html
+2020-08-12 19:51:04,561 - INFO - urlopen: http://pic.people.com.cn/n1/2020/0812/c1016-31819153.html
+2020-08-12 19:51:04,588 - INFO - Read data successfully
+2020-08-12 19:51:04,718 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	2020年8月1...
+2020-08-12 19:51:04,718 - INFO - Start downloading url:  http://pic.people.com.cn/n1/2020/0812/c1016-31819689.html
+2020-08-12 19:51:04,719 - INFO - urlopen:  http://pic.people.com.cn/n1/2020/0812/c1016-31819689.html
+2020-08-12 19:51:04,848 - INFO - Read data successfully
+2020-08-12 19:51:04,975 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	8月11日，新加...
+2020-08-12 19:51:04,975 - INFO - Start downloading url: http://pic.people.com.cn/n1/2020/0812/c1016-31819689.html
+2020-08-12 19:51:04,976 - INFO - urlopen: http://pic.people.com.cn/n1/2020/0812/c1016-31819689.html
+2020-08-12 19:51:05,019 - INFO - Read data successfully
+2020-08-12 19:51:05,147 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	8月11日，新加...
+2020-08-12 19:51:05,147 - INFO - Start downloading url: http://politics.people.com.cn/n1/2020/0812/c1001-31819978.html
+2020-08-12 19:51:05,148 - INFO - urlopen: http://politics.people.com.cn/n1/2020/0812/c1001-31819978.html
+2020-08-12 19:51:05,374 - INFO - Got a error while downloading: HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Temporarily
+2020-08-12 19:51:05,374 - INFO - http://politics.people.com.cn/n1/2020/0812/c1001-31819978.htmlhas been recorded
+2020-08-12 19:51:05,375 - INFO - This url is NoneType, crawling skipped.
+2020-08-12 19:51:05,375 - INFO - http://politics.people.com.cn/n1/2020/0812/c1001-31819978.html has HTTP ERROR
+2020-08-12 19:51:05,375 - INFO - Start downloading url: http://rmfp.people.com.cn/n1/2020/0811/c433273-31818805.html
+2020-08-12 19:51:05,377 - INFO - urlopen: http://rmfp.people.com.cn/n1/2020/0811/c433273-31818805.html
+2020-08-12 19:51:05,639 - INFO - Read data successfully
+2020-08-12 19:51:05,716 - DEBUG - Found content :           2020年08月11日23:14  来源...
+2020-08-12 19:51:05,716 - INFO - Start downloading url: http://rmfp.people.com.cn/n1/2020/0811/c433273-31818805.html
+2020-08-12 19:51:05,716 - INFO - urlopen: http://rmfp.people.com.cn/n1/2020/0811/c433273-31818805.html
+2020-08-12 19:51:05,741 - INFO - Read data successfully
+2020-08-12 19:51:05,814 - DEBUG - Found content :           2020年08月11日23:14  来源...
+2020-08-12 19:51:05,814 - INFO - Start downloading url: http://ah.people.com.cn/n2/2020/0812/c358266-34222507.html
+2020-08-12 19:51:05,815 - INFO - urlopen: http://ah.people.com.cn/n2/2020/0812/c358266-34222507.html
+2020-08-12 19:51:05,981 - INFO - Read data successfully
+2020-08-12 19:51:06,169 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	人民网舒城8月1...
+2020-08-12 19:51:06,169 - INFO - Start downloading url: http://ah.people.com.cn/n2/2020/0812/c358266-34222507.html
+2020-08-12 19:51:06,170 - INFO - urlopen: http://ah.people.com.cn/n2/2020/0812/c358266-34222507.html
+2020-08-12 19:51:06,242 - INFO - Read data successfully
+2020-08-12 19:51:06,404 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	人民网舒城8月1...
+2020-08-12 19:51:06,405 - INFO - Start downloading url: http://politics.people.com.cn/n1/2020/0812/c1024-31818822.html
+2020-08-12 19:51:06,405 - INFO - urlopen: http://politics.people.com.cn/n1/2020/0812/c1024-31818822.html
+2020-08-12 19:51:06,527 - INFO - Got a error while downloading: HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Temporarily
+2020-08-12 19:51:06,527 - INFO - http://politics.people.com.cn/n1/2020/0812/c1024-31818822.htmlhas been recorded
+2020-08-12 19:51:06,528 - INFO - This url is NoneType, crawling skipped.
+2020-08-12 19:51:06,528 - INFO - Start downloading url: http://cpc.people.com.cn/n1/2020/0812/c164113-31819851.html
+2020-08-12 19:51:06,529 - INFO - urlopen: http://cpc.people.com.cn/n1/2020/0812/c164113-31819851.html
+2020-08-12 19:51:06,763 - INFO - Read data successfully
+2020-08-12 19:51:06,946 - DEBUG - Found content : 高层动态干部论坛人事理论党建群团独家视频部委信息领导活动反腐...
+2020-08-12 19:51:06,946 - INFO - Start downloading url: http://politics.people.com.cn/n1/2020/0812/c1024-31818825.html
+2020-08-12 19:51:06,947 - INFO - urlopen: http://politics.people.com.cn/n1/2020/0812/c1024-31818825.html
+2020-08-12 19:51:07,092 - INFO - Got a error while downloading: HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Temporarily
+2020-08-12 19:51:07,093 - INFO - http://politics.people.com.cn/n1/2020/0812/c1024-31818825.htmlhas been recorded
+2020-08-12 19:51:07,093 - INFO - This url is NoneType, crawling skipped.
+2020-08-12 19:51:07,093 - INFO - Start downloading url: http://politics.people.com.cn/n1/2020/0812/c1024-31818835.html
+2020-08-12 19:51:07,095 - INFO - urlopen: http://politics.people.com.cn/n1/2020/0812/c1024-31818835.html
+2020-08-12 19:51:07,235 - INFO - Got a error while downloading: HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Temporarily
+2020-08-12 19:51:07,235 - INFO - http://politics.people.com.cn/n1/2020/0812/c1024-31818835.htmlhas been recorded
+2020-08-12 19:51:07,235 - INFO - This url is NoneType, crawling skipped.
+2020-08-12 19:51:07,236 - INFO - Start downloading url: http://opinion.people.com.cn/n1/2020/0812/c1003-31818912.html
+2020-08-12 19:51:07,237 - INFO - urlopen: http://opinion.people.com.cn/n1/2020/0812/c1003-31818912.html
+2020-08-12 19:51:07,264 - INFO - Read data successfully
+2020-08-12 19:51:07,435 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？本报评论部　　强调...
+2020-08-12 19:51:07,435 - INFO - Start downloading url: http://politics.people.com.cn/n1/2020/0812/c1001-31818865.html
+2020-08-12 19:51:07,436 - INFO - urlopen: http://politics.people.com.cn/n1/2020/0812/c1001-31818865.html
+2020-08-12 19:51:07,559 - INFO - Got a error while downloading: HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Temporarily
+2020-08-12 19:51:07,559 - INFO - http://politics.people.com.cn/n1/2020/0812/c1001-31818865.htmlhas been recorded
+2020-08-12 19:51:07,560 - INFO - This url is NoneType, crawling skipped.
+2020-08-12 19:51:07,560 - INFO - Start downloading url: http://npc.people.com.cn/n1/2020/0812/c14576-31818840.html
+2020-08-12 19:51:07,561 - INFO - urlopen: http://npc.people.com.cn/n1/2020/0812/c14576-31818840.html
+2020-08-12 19:51:08,013 - INFO - Read data successfully
+2020-08-12 19:51:08,166 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？　　第十三届全国人...
+2020-08-12 19:51:08,168 - INFO - Start downloading url: http://hm.people.com.cn/n1/2020/0812/c42272-31818853.html
+2020-08-12 19:51:08,169 - INFO - urlopen: http://hm.people.com.cn/n1/2020/0812/c42272-31818853.html
+2020-08-12 19:51:08,535 - INFO - Read data successfully
+2020-08-12 19:51:08,738 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	　　新华社北京8...
+2020-08-12 19:51:08,738 - INFO - Start downloading url: http://hm.people.com.cn/n1/2020/0812/c42272-31818854.html
+2020-08-12 19:51:08,739 - INFO - urlopen: http://hm.people.com.cn/n1/2020/0812/c42272-31818854.html
+2020-08-12 19:51:08,937 - INFO - Read data successfully
+2020-08-12 19:51:09,112 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	　　新华社香港8...
+2020-08-12 19:51:09,113 - INFO - Start downloading url: http://hm.people.com.cn/n1/2020/0812/c42272-31818852.html
+2020-08-12 19:51:09,113 - INFO - urlopen: http://hm.people.com.cn/n1/2020/0812/c42272-31818852.html
+2020-08-12 19:51:09,345 - INFO - Read data successfully
+2020-08-12 19:51:09,675 - DEBUG - Found content : µÇÂ¼ÈËÃñÍøÍ¨ÐÐÖ¤    Á¢¼´×¢²áÍü...
+2020-08-12 19:51:09,675 - INFO - Start downloading url: http://hm.people.com.cn/n1/2020/0812/c42272-31819174.html
+2020-08-12 19:51:09,676 - INFO - urlopen: http://hm.people.com.cn/n1/2020/0812/c42272-31819174.html
+2020-08-12 19:51:09,804 - INFO - Read data successfully
+2020-08-12 19:51:09,996 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	人民网北京8月1...
+2020-08-12 19:51:09,996 - INFO - Start downloading url: http://opinion.people.com.cn/n1/2020/0812/c223228-31819825.html
+2020-08-12 19:51:09,997 - INFO - urlopen: http://opinion.people.com.cn/n1/2020/0812/c223228-31819825.html
+2020-08-12 19:51:10,112 - INFO - Read data successfully
+2020-08-12 19:51:10,300 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？宫新	日常浏览新闻...
+2020-08-12 19:51:10,300 - INFO - Start downloading url: http://www.people.com.cn/n1/2020/0812/c32306-31819974.html
+2020-08-12 19:51:10,301 - INFO - urlopen: http://www.people.com.cn/n1/2020/0812/c32306-31819974.html
+2020-08-12 19:51:10,574 - INFO - Read data successfully
+2020-08-12 19:51:10,762 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	人民网北京8月1...
+2020-08-12 19:51:10,762 - INFO - Start downloading url: http://rmfp.people.com.cn/n1/2020/0812/c406725-31819960.html
+2020-08-12 19:51:10,763 - INFO - urlopen: http://rmfp.people.com.cn/n1/2020/0812/c406725-31819960.html
+2020-08-12 19:51:11,188 - INFO - Read data successfully
+2020-08-12 19:51:11,366 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	人民网北京8月1...
+2020-08-12 19:51:11,367 - INFO - Start downloading url: http://rmfp.people.com.cn/n1/2020/0812/c406725-31820105.html
+2020-08-12 19:51:11,367 - INFO - urlopen: http://rmfp.people.com.cn/n1/2020/0812/c406725-31820105.html
+2020-08-12 19:51:11,447 - INFO - Read data successfully
+2020-08-12 19:51:11,625 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	人民网北京8月1...
+2020-08-12 19:51:11,625 - INFO - Start downloading url: http://rmfp.people.com.cn/n1/2020/0812/c406725-31820028.html
+2020-08-12 19:51:11,626 - INFO - urlopen: http://rmfp.people.com.cn/n1/2020/0812/c406725-31820028.html
+2020-08-12 19:51:11,803 - INFO - Read data successfully
+2020-08-12 19:51:11,961 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	人民网北京8月1...
+2020-08-12 19:51:11,962 - INFO - Start downloading url: http://politics.people.com.cn/n1/2020/0812/c1001-31819626.html
+2020-08-12 19:51:11,962 - INFO - urlopen: http://politics.people.com.cn/n1/2020/0812/c1001-31819626.html
+2020-08-12 19:51:12,104 - INFO - Got a error while downloading: HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Temporarily
+2020-08-12 19:51:12,105 - INFO - http://politics.people.com.cn/n1/2020/0812/c1001-31819626.htmlhas been recorded
+2020-08-12 19:51:12,105 - INFO - This url is NoneType, crawling skipped.
+2020-08-12 19:51:12,105 - INFO - Start downloading url: http://politics.people.com.cn/n1/2020/0812/c1001-31820116.html
+2020-08-12 19:51:12,107 - INFO - urlopen: http://politics.people.com.cn/n1/2020/0812/c1001-31820116.html
+2020-08-12 19:51:12,224 - INFO - Got a error while downloading: HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Temporarily
+2020-08-12 19:51:12,224 - INFO - http://politics.people.com.cn/n1/2020/0812/c1001-31820116.htmlhas been recorded
+2020-08-12 19:51:12,225 - INFO - This url is NoneType, crawling skipped.
+2020-08-12 19:51:12,225 - INFO - Start downloading url: http://cpc.people.com.cn/n1/2020/0812/c164113-31819956.html
+2020-08-12 19:51:12,226 - INFO - urlopen: http://cpc.people.com.cn/n1/2020/0812/c164113-31819956.html
+2020-08-12 19:51:12,519 - INFO - Read data successfully
+2020-08-12 19:51:12,698 - DEBUG - Found content : 高层动态干部论坛人事理论党建群团独家视频部委信息领导活动反腐...
+2020-08-12 19:51:12,698 - INFO - Start downloading url: http://rmfp.people.com.cn/n1/2020/0812/c433360-31819167.html
+2020-08-12 19:51:12,699 - INFO - urlopen: http://rmfp.people.com.cn/n1/2020/0812/c433360-31819167.html
+2020-08-12 19:51:12,928 - INFO - Read data successfully
+2020-08-12 19:51:12,999 - DEBUG - Found content : 丁涛          2020年08月12日08:12  ...
+2020-08-12 19:51:12,999 - INFO - Start downloading url: http://rmfp.people.com.cn/n1/2020/0812/c433360-31819167.html
+2020-08-12 19:51:13,000 - INFO - urlopen: http://rmfp.people.com.cn/n1/2020/0812/c433360-31819167.html
+2020-08-12 19:51:13,028 - INFO - Read data successfully
+2020-08-12 19:51:13,098 - DEBUG - Found content : 丁涛          2020年08月12日08:12  ...
+2020-08-12 19:51:13,099 - INFO - Start downloading url: http://rmfp.people.com.cn/n1/2020/0812/c433360-31819167.html
+2020-08-12 19:51:13,099 - INFO - urlopen: http://rmfp.people.com.cn/n1/2020/0812/c433360-31819167.html
+2020-08-12 19:51:13,441 - INFO - Read data successfully
+2020-08-12 19:51:13,512 - DEBUG - Found content : 丁涛          2020年08月12日08:12  ...
+2020-08-12 19:51:13,512 - INFO - Start downloading url: http://military.people.com.cn/n1/2020/0812/c1011-31819994.html
+2020-08-12 19:51:13,513 - INFO - urlopen: http://military.people.com.cn/n1/2020/0812/c1011-31819994.html
+2020-08-12 19:51:13,639 - INFO - Read data successfully
+2020-08-12 19:51:13,857 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	导弹实射训练现场...
+2020-08-12 19:51:13,857 - INFO - Start downloading url: http://military.people.com.cn/n1/2020/0812/c1011-31819994.html
+2020-08-12 19:51:13,858 - INFO - urlopen: http://military.people.com.cn/n1/2020/0812/c1011-31819994.html
+2020-08-12 19:51:13,958 - INFO - Read data successfully
+2020-08-12 19:51:14,164 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	导弹实射训练现场...
+2020-08-12 19:51:14,164 - INFO - Start downloading url: http://military.people.com.cn/n1/2020/0812/c1011-31819994.html
+2020-08-12 19:51:14,164 - INFO - urlopen: http://military.people.com.cn/n1/2020/0812/c1011-31819994.html
+2020-08-12 19:51:14,190 - INFO - Read data successfully
+2020-08-12 19:51:14,444 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？	导弹实射训练现场...
+2020-08-12 19:51:14,444 - INFO - Start downloading url: http://rmfp.people.com.cn/n1/2020/0812/c433285-31820010.html
+2020-08-12 19:51:14,445 - INFO - urlopen: http://rmfp.people.com.cn/n1/2020/0812/c433285-31820010.html
+2020-08-12 19:51:14,605 - INFO - Read data successfully
+2020-08-12 19:51:14,756 - DEBUG - Found content :           2020Äê08ÔÂ12ÈÕ14:29 ...
+2020-08-12 19:51:14,756 - INFO - Start downloading url: http://rmfp.people.com.cn/n1/2020/0812/c433285-31820010.html
+2020-08-12 19:51:14,757 - INFO - urlopen: http://rmfp.people.com.cn/n1/2020/0812/c433285-31820010.html
+2020-08-12 19:51:16,385 - INFO - Read data successfully
+2020-08-12 19:51:16,534 - DEBUG - Found content :           2020Äê08ÔÂ12ÈÕ14:29 ...
+2020-08-12 19:51:16,534 - INFO - Start downloading url: http://rmfp.people.com.cn/n1/2020/0812/c433285-31820010.html
+2020-08-12 19:51:16,535 - INFO - urlopen: http://rmfp.people.com.cn/n1/2020/0812/c433285-31820010.html
+2020-08-12 19:51:16,613 - INFO - Read data successfully
+2020-08-12 19:51:16,770 - DEBUG - Found content :           2020Äê08ÔÂ12ÈÕ14:29 ...
+2020-08-12 19:51:16,771 - INFO - Start downloading url: http://culture.people.com.cn/n1/2020/0812/c1013-31819736.html
+2020-08-12 19:51:16,771 - INFO - urlopen: http://culture.people.com.cn/n1/2020/0812/c1013-31819736.html
+2020-08-12 19:51:17,230 - INFO - Read data successfully
+2020-08-12 19:51:17,582 - DEBUG - Found content : µÇÂ¼ÈËÃñÍøÍ¨ÐÐÖ¤    Á¢¼´×¢²áÍü...
+2020-08-12 19:51:17,582 - INFO - Start downloading url: http://culture.people.com.cn/n1/2020/0812/c1013-31819736.html
+2020-08-12 19:51:17,583 - INFO - urlopen: http://culture.people.com.cn/n1/2020/0812/c1013-31819736.html
+2020-08-12 19:51:17,632 - INFO - Read data successfully
+2020-08-12 19:51:18,027 - DEBUG - Found content : µÇÂ¼ÈËÃñÍøÍ¨ÐÐÖ¤    Á¢¼´×¢²áÍü...
+2020-08-12 19:51:18,028 - INFO - Start downloading url: http://culture.people.com.cn/n1/2020/0812/c1013-31819736.html
+2020-08-12 19:51:18,028 - INFO - urlopen: http://culture.people.com.cn/n1/2020/0812/c1013-31819736.html
+2020-08-12 19:51:18,052 - INFO - Got a error while downloading: The url type is not HTML
+2020-08-12 19:51:18,052 - INFO - http://culture.people.com.cn/n1/2020/0812/c1013-31819736.htmlhas been recorded
+2020-08-12 19:51:18,052 - INFO - This url is NoneType, crawling skipped.
+2020-08-12 19:51:18,053 - INFO - Start downloading url: http://jiaju.people.com.cn/n1/2020/0812/c151264-31819724.html
+2020-08-12 19:51:18,054 - INFO - urlopen: http://jiaju.people.com.cn/n1/2020/0812/c151264-31819724.html
+2020-08-12 19:51:18,458 - INFO - Read data successfully
+2020-08-12 19:51:18,617 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？微信微博手机人民网...
+2020-08-12 19:51:18,618 - INFO - Start downloading url: http://jiaju.people.com.cn/n1/2020/0812/c151264-31819724.html
+2020-08-12 19:51:18,618 - INFO - urlopen: http://jiaju.people.com.cn/n1/2020/0812/c151264-31819724.html
+2020-08-12 19:51:18,645 - INFO - Read data successfully
+2020-08-12 19:51:18,794 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？微信微博手机人民网...
+2020-08-12 19:51:18,794 - INFO - Start downloading url: http://jiaju.people.com.cn/n1/2020/0812/c151264-31819724.html
+2020-08-12 19:51:18,795 - INFO - urlopen: http://jiaju.people.com.cn/n1/2020/0812/c151264-31819724.html
+2020-08-12 19:51:18,821 - INFO - Read data successfully
+2020-08-12 19:51:18,985 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？微信微博手机人民网...
+2020-08-12 19:51:18,985 - INFO - Start downloading url: http://theory.people.com.cn/n1/2020/0812/c40531-31819343.html
+2020-08-12 19:51:18,986 - INFO - urlopen: http://theory.people.com.cn/n1/2020/0812/c40531-31819343.html
+2020-08-12 19:51:19,316 - INFO - Read data successfully
+2020-08-12 19:51:19,471 - DEBUG - Found content : 高层动态干部论坛人事理论党建群团独家视频部委信息领导活动反腐...
+2020-08-12 19:51:19,471 - INFO - Start downloading url: http://theory.people.com.cn/n1/2020/0812/c40531-31819343.html
+2020-08-12 19:51:19,473 - INFO - urlopen: http://theory.people.com.cn/n1/2020/0812/c40531-31819343.html
+2020-08-12 19:51:19,506 - INFO - Read data successfully
+2020-08-12 19:51:19,661 - DEBUG - Found content : 高层动态干部论坛人事理论党建群团独家视频部委信息领导活动反腐...
+2020-08-12 19:51:19,661 - INFO - Start downloading url: http://theory.people.com.cn/n1/2020/0812/c40531-31819343.html
+2020-08-12 19:51:19,662 - INFO - urlopen: http://theory.people.com.cn/n1/2020/0812/c40531-31819343.html
+2020-08-12 19:51:19,695 - INFO - Read data successfully
+2020-08-12 19:51:19,857 - DEBUG - Found content : 高层动态干部论坛人事理论党建群团独家视频部委信息领导活动反腐...
+2020-08-12 19:51:19,857 - INFO - Start downloading url: http://sports.people.com.cn/GB/400299/406075/index.html
+2020-08-12 19:51:19,857 - INFO - urlopen: http://sports.people.com.cn/GB/400299/406075/index.html
+2020-08-12 19:51:20,096 - INFO - Read data successfully
+2020-08-12 19:51:20,144 - DEBUG - Found content : 国家体育总局党组成员、副局长；里约奥运中国代表团副团长兼秘书...
+2020-08-12 19:51:20,144 - INFO - Start downloading url: http://sports.people.com.cn/GB/400299/406075/index.html
+2020-08-12 19:51:20,145 - INFO - urlopen: http://sports.people.com.cn/GB/400299/406075/index.html
+2020-08-12 19:51:20,172 - INFO - Read data successfully
+2020-08-12 19:51:20,219 - DEBUG - Found content : 国家体育总局党组成员、副局长；里约奥运中国代表团副团长兼秘书...
+2020-08-12 19:51:20,219 - INFO - Start downloading url: http://sports.people.com.cn/n1/2016/0722/c22149-28575860.html
+2020-08-12 19:51:20,220 - INFO - urlopen: http://sports.people.com.cn/n1/2016/0722/c22149-28575860.html
+2020-08-12 19:51:20,507 - INFO - Read data successfully
+2020-08-12 19:51:20,626 - DEBUG - Found content : 人民网7月22日电 北京时间7月21日，中国男篮抵达洛杉矶，...
+2020-08-12 19:51:20,626 - INFO - Start downloading url: http://sports.people.com.cn/n1/2016/0722/c22149-28575860.html
+2020-08-12 19:51:20,626 - INFO - urlopen: http://sports.people.com.cn/n1/2016/0722/c22149-28575860.html
+2020-08-12 19:51:20,652 - INFO - Read data successfully
+2020-08-12 19:51:20,773 - DEBUG - Found content : 人民网7月22日电 北京时间7月21日，中国男篮抵达洛杉矶，...
+2020-08-12 19:51:20,774 - INFO - Start downloading url: http://sports.people.com.cn/n1/2016/0722/c14820-28575143.html
+2020-08-12 19:51:20,774 - INFO - urlopen: http://sports.people.com.cn/n1/2016/0722/c14820-28575143.html
+2020-08-12 19:51:20,942 - INFO - Read data successfully
+2020-08-12 19:51:21,244 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？本报记者  刘  ...
+2020-08-12 19:51:21,244 - INFO - Start downloading url: http://sports.people.com.cn/n1/2016/0722/c14820-28575143.html
+2020-08-12 19:51:21,245 - INFO - urlopen: http://sports.people.com.cn/n1/2016/0722/c14820-28575143.html
+2020-08-12 19:51:21,271 - INFO - Read data successfully
+2020-08-12 19:51:21,554 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？本报记者  刘  ...
+2020-08-12 19:51:21,554 - INFO - Start downloading url: http://www.people.com.cn/GB/123231/365206/index.html
+2020-08-12 19:51:21,555 - INFO - urlopen: http://www.people.com.cn/GB/123231/365206/index.html
+2020-08-12 19:51:21,837 - INFO - Read data successfully
+2020-08-12 19:51:21,870 - DEBUG - Got a ValueError: content is None
+2020-08-12 19:51:21,870 - INFO - Start downloading url: http://paper.people.com.cn/rmrb/index.html
+2020-08-12 19:51:21,871 - INFO - urlopen: http://paper.people.com.cn/rmrb/index.html
+2020-08-12 19:51:21,898 - INFO - Read data successfully
+2020-08-12 19:51:21,899 - DEBUG - Got a ValueError: content is None
+2020-08-12 19:51:21,900 - INFO - Start downloading url: http://opinion.people.com.cn/n1/2020/0812/c1003-31818867.html
+2020-08-12 19:51:21,901 - INFO - urlopen: http://opinion.people.com.cn/n1/2020/0812/c1003-31818867.html
+2020-08-12 19:51:22,025 - INFO - Read data successfully
+2020-08-12 19:51:22,198 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？洪永淼　　习近平总...
+2020-08-12 19:51:22,198 - INFO - Start downloading url: http://society.people.com.cn/n1/2020/0812/c1008-31818892.html
+2020-08-12 19:51:22,198 - INFO - urlopen: http://society.people.com.cn/n1/2020/0812/c1008-31818892.html
+2020-08-12 19:51:22,343 - INFO - Read data successfully
+2020-08-12 19:51:22,533 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？周春媚　　年轻人向...
+2020-08-12 19:51:22,533 - INFO - Start downloading url: http://society.people.com.cn/n1/2020/0812/c1008-31818905.html
+2020-08-12 19:51:22,534 - INFO - urlopen: http://society.people.com.cn/n1/2020/0812/c1008-31818905.html
+2020-08-12 19:51:22,964 - INFO - Read data successfully
+2020-08-12 19:51:23,168 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？本报记者  程  ...
+2020-08-12 19:51:23,168 - INFO - Start downloading url: http://culture.people.com.cn/n1/2020/0812/c1013-31818850.html
+2020-08-12 19:51:23,168 - INFO - urlopen: http://culture.people.com.cn/n1/2020/0812/c1013-31818850.html
+2020-08-12 19:51:23,246 - INFO - Read data successfully
+2020-08-12 19:51:23,670 - DEBUG - Found content : µÇÂ¼ÈËÃñÍøÍ¨ÐÐÖ¤    Á¢¼´×¢²áÍü...
+2020-08-12 19:51:23,670 - INFO - Start downloading url: http://culture.people.com.cn/n1/2020/0812/c1013-31818911.html
+2020-08-12 19:51:23,671 - INFO - urlopen: http://culture.people.com.cn/n1/2020/0812/c1013-31818911.html
+2020-08-12 19:51:23,886 - INFO - Read data successfully
+2020-08-12 19:51:24,078 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？本报记者  郑少忠...
+2020-08-12 19:51:24,079 - INFO - Start downloading url: http://unn.people.com.cn/difang/GB/387272/index.html
+2020-08-12 19:51:24,079 - INFO - urlopen: http://unn.people.com.cn/difang/GB/387272/index.html
+2020-08-12 19:51:24,295 - INFO - Read data successfully
+2020-08-12 19:51:24,468 - DEBUG - Got a ValueError: content is None
+2020-08-12 19:51:24,468 - INFO - Start downloading url: http://www.people.com.cn/GB/8722/index.html
+2020-08-12 19:51:24,469 - INFO - urlopen: http://www.people.com.cn/GB/8722/index.html
+2020-08-12 19:51:24,704 - INFO - Read data successfully
+2020-08-12 19:51:24,773 - DEBUG - Got a ValueError: content is None
+2020-08-12 19:51:24,774 - INFO - Start downloading url: http://opinion.people.com.cn/GB/223228/index.html
+2020-08-12 19:51:24,774 - INFO - urlopen: http://opinion.people.com.cn/GB/223228/index.html
+2020-08-12 19:51:24,872 - INFO - Read data successfully
+2020-08-12 19:51:25,217 - DEBUG - Found content : µÇÂ¼ÈËÃñÍøÍ¨ÐÐÖ¤    Á¢¼´×¢²áÍü...
+2020-08-12 19:51:25,217 - INFO - Start downloading url: http://opinion.people.com.cn/GB/223228/index.html
+2020-08-12 19:51:25,218 - INFO - urlopen: http://opinion.people.com.cn/GB/223228/index.html
+2020-08-12 19:51:25,242 - INFO - Read data successfully
+2020-08-12 19:51:25,628 - DEBUG - Found content : µÇÂ¼ÈËÃñÍøÍ¨ÐÐÖ¤    Á¢¼´×¢²áÍü...
+2020-08-12 19:51:25,628 - INFO - Start downloading url: 		
+http://opinion.people.com.cn/n1/2020/0811/c223228-31818780.html
+2020-08-12 19:51:25,629 - INFO - urlopen: 		
+http://opinion.people.com.cn/n1/2020/0811/c223228-31818780.html
+2020-08-12 19:51:25,727 - INFO - Read data successfully
+2020-08-12 19:51:25,916 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？沈慎	“餐饮浪费现...
+2020-08-12 19:51:25,916 - INFO - Start downloading url: http://opinion.people.com.cn/GB/427456/index.html
+2020-08-12 19:51:25,917 - INFO - urlopen: http://opinion.people.com.cn/GB/427456/index.html
+2020-08-12 19:51:26,041 - INFO - Read data successfully
+2020-08-12 19:51:26,329 - DEBUG - Found content : µÇÂ¼ÈËÃñÍøÍ¨ÐÐÖ¤    Á¢¼´×¢²áÍü...
+2020-08-12 19:51:26,329 - INFO - Start downloading url: http://opinion.people.com.cn/n1/2020/0811/c1003-31818207.html
+2020-08-12 19:51:26,330 - INFO - urlopen: http://opinion.people.com.cn/n1/2020/0811/c1003-31818207.html
+2020-08-12 19:51:26,473 - INFO - Read data successfully
+2020-08-12 19:51:26,651 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？朱一梵	国家统计局...
+2020-08-12 19:51:26,652 - INFO - Start downloading url: http://opinion.people.com.cn/GB/159301/index.html
+2020-08-12 19:51:26,652 - INFO - urlopen: http://opinion.people.com.cn/GB/159301/index.html
+2020-08-12 19:51:26,855 - INFO - Read data successfully
+2020-08-12 19:51:27,206 - DEBUG - Found content : µÇÂ¼ÈËÃñÍøÍ¨ÐÐÖ¤    Á¢¼´×¢²áÍü...
+2020-08-12 19:51:27,206 - INFO - Start downloading url: 			
+http://opinion.people.com.cn/n1/2020/0811/c223228-31818702.html
+2020-08-12 19:51:27,207 - INFO - urlopen: 			
+http://opinion.people.com.cn/n1/2020/0811/c223228-31818702.html
+2020-08-12 19:51:27,273 - INFO - Read data successfully
+2020-08-12 19:51:27,467 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？向南平	“其作始也...
+2020-08-12 19:51:27,467 - INFO - Start downloading url: http://opinion.people.com.cn/GB/1036/index.html
+2020-08-12 19:51:27,468 - INFO - urlopen: http://opinion.people.com.cn/GB/1036/index.html
+2020-08-12 19:51:27,675 - INFO - Read data successfully
+2020-08-12 19:51:27,971 - DEBUG - Found content : µÇÂ¼ÈËÃñÍøÍ¨ÐÐÖ¤    Á¢¼´×¢²áÍü...
+2020-08-12 19:51:27,972 - INFO - Start downloading url: 	
+http://opinion.people.com.cn/n1/2020/0812/c1003-31818820.html
+2020-08-12 19:51:27,972 - INFO - urlopen: 	
+http://opinion.people.com.cn/n1/2020/0812/c1003-31818820.html
+2020-08-12 19:51:28,090 - INFO - Read data successfully
+2020-08-12 19:51:28,281 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？本报评论员　　“餐...
+2020-08-12 19:51:28,282 - INFO - Start downloading url: http://opinion.people.com.cn/GB/431649/index.html
+2020-08-12 19:51:28,282 - INFO - urlopen: http://opinion.people.com.cn/GB/431649/index.html
+2020-08-12 19:51:28,626 - INFO - Read data successfully
+2020-08-12 19:51:28,930 - DEBUG - Found content : µÇÂ¼ÈËÃñÍøÍ¨ÐÐÖ¤    Á¢¼´×¢²áÍü...
+2020-08-12 19:51:28,930 - INFO - Start downloading url: 	
+http://opinion.people.com.cn/n1/2020/0812/c1003-31818912.html
+2020-08-12 19:51:28,930 - INFO - urlopen: 	
+http://opinion.people.com.cn/n1/2020/0812/c1003-31818912.html
+2020-08-12 19:51:28,957 - INFO - Read data successfully
+2020-08-12 19:51:29,139 - DEBUG - Found content : 登录人民网通行证    立即注册忘记密码？本报评论部　　强调...
+2020-08-12 19:51:29,140 - INFO - Crawling finished
+2020-08-12 19:51:29,264 - INFO - Excel file outputted.

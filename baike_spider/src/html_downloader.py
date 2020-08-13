@@ -1,11 +1,14 @@
 # coding=utf-8
 import ssl
-import requests
+import configparser
 from urllib import request
 from fake_useragent import UserAgent
 from Logger import get_log
-# HTML 下载器
 
+# 读取配置文件
+config = configparser.RawConfigParser()
+config.read("./temp/cfg.ini")
+INVALID_URL_TXT_PATH = str(config.get("path", "txt_path"))
 
 class HtmlDownloader(object):
 
@@ -42,8 +45,7 @@ class HtmlDownloader(object):
             logger.info("Got a error while downloading: " + str(e))
             print(url+' got a error: [' + str(e) + "]")
             # if str(e) == 'HTTP Error 404: Not Found' or str(e) == 'The url type is not HTML':
-            file_name = "404.txt"
-            with open(file_name, 'a') as object:
+            with open(INVALID_URL_TXT_PATH, 'a') as object:
                 object.write(url+"\n")
                 logger.info(url + "has been recorded")
                 print(url+" has been recorded")
