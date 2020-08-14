@@ -11,11 +11,12 @@
 # #写爬虫最实用的是可以随意变换headers，一定要有随机性。支持随机生成请求头
 # print(ua.random)
 import configparser
+import os
 #        https://news.163.com/
 #        http://news.baidu.com/
 # 读取配置文件
 config = configparser.RawConfigParser()
-config.read("cfg.ini")
+config.read("./temp/cfg.ini")
 
 # 获取文件的所有section
 # secs = config.sections()
@@ -31,33 +32,43 @@ config.read("cfg.ini")
 # https://www.ifeng.com/
 # https://news.sina.com.cn/
 
-# from datetime import datetime
-# import os
-# from apscheduler.schedulers.blocking import BlockingScheduler
-#
-# def tick():
-#     print('Tick! The time is: %s' % datetime.now())
-#
-# if __name__ == '__main__':
-#     scheduler = BlockingScheduler()
-#     scheduler.add_job(tick, 'interval', seconds=3)
-#     print('Press Ctrl+{0} to exit'.format('Break' if os.name == 'nt' else 'C    '))
-#
-#     try:
-#         scheduler.start()
-#     except (KeyboardInterrupt, SystemExit):
-#         pass
-import openpyxl
-import pandas as pd
+from apscheduler.schedulers.blocking import BlockingScheduler
+from apscheduler.events import EVENT_JOB_EXECUTED, EVENT_JOB_ERROR
+import datetime
+import logging
 
-wb = openpyxl.load_workbook('测试.xlsx')
-#如果有多个模块可以读写excel文件，这里要指定engine，否则可能会报错
-writer = pd.ExcelWriter('测试.xlsx', engine='openpyxl')
-#没有下面这个语句的话excel表将完全被覆盖
-writer.book = wb
+logging.basicConfig(level=logging.INFO,
+format = '%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
+datefmt = '%Y-%m-%d %H:%M:%S',
+filename = 'log1.txt',
+filemode = 'a')
 
-df = pd.DataFrame(pd.read_excel('测试.xlsx', sheet_name = 'Sheet1'))
-#如果有相同名字的工作表，新添加的将命名为Sheet21，如果Sheet21也有了就命名为Sheet22，不会覆盖原来的工作表
-df.to_excel(writer,sheet_name = 'Sheet2',index = None)
-writer.save()
-writer.close()
+
+def aps_test(x):
+    print(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), x)
+
+
+def date_test(x):
+    print(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), x)
+    print(1 / 0)
+
+
+def my_listener(event):
+    if event.exception:
+        print('任务出错了！！！！！！')
+
+    else:
+        print('任务照常运行...')
+
+scheduler = BlockingScheduler()
+
+scheduler.add_job(func=date_test, args=('一次性任务,会出错',),
+                  next_run_time=datetime.datetime.now() + datetime.timedelta(seconds=15), id='date_task')
+
+scheduler.add_job(func=aps_test, args=('循环任务',), trigger='interval', seconds=3, id='interval_task')
+
+scheduler.add_listener(my_listener, EVENT_JOB_EXECUTED | EVENT_JOB_ERROR)
+
+scheduler._logger = logging
+
+scheduler.start()

@@ -96,5 +96,5 @@ class SpiderMain(object):
             except Exception as e:
                 print(e)
 
-        self.outputer.output_excel(root_url)
+        self.outputer.output_excel()
 

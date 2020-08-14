@@ -14,28 +14,39 @@ config = configparser.RawConfigParser()
 config.read("./temp/cfg.ini")
 
 
-def export_excel(export, root_url):
+def export_excel(export):
     try:
-
+        time = str(datetime.datetime.now().year)+"-"+str(datetime.datetime.now().month)+"-"+str(datetime.datetime.now().day)
         EXCEL_PATH = str(config.get("path", "excel_path"))
-        filename = EXCEL_PATH+str(root_url)+"-"+str(datetime.datetime.now())+".xlsx"
-
-        # 将字典列表转换为DataFrame
-        pf = pd.DataFrame(list(export))
+        filename = EXCEL_PATH+time+".xlsx"
         # 指定字段顺序
         order = ['URL', 'Website', 'Title', 'Value']
-
-        if os.path.exists(filename):
-
-            pf = pf[order]
-            file_path = pd.ExcelWriter(filename)
+        # 将字典列表转换为DataFrame
+        pf = pd.DataFrame(list(export))
+        pf = pf[order]
+        if not os.path.exists(filename):
+            writer = pd.ExcelWriter(filename, mode='w')
             # 替换空单元格
             pf.fillna(' ', inplace=True)
             # 输出
-            pf.to_excel(file_path, encoding='GB2312', index=False)
+            pf.to_excel(writer, encoding='utf-8', index=False, sheet_name='d1')
             # 保存表格
-            file_path.save()
-            logger.info("Excel file " + filename+"created")
+            writer.save()
+            writer.close()
+            logger.info("Excel file " + filename + " created")
+
+        else:
+            writer = pd.ExcelWriter(filename, mode='a')
+            writer.book = openpyxl.load_workbook(filename)
+            # 替换空单元格
+            pf.fillna(' ', inplace=True)
+            # 输出
+            pf.to_excel(writer, encoding='utf-8', index=False, sheet_name='d2')
+            # 保存表格
+            writer.save()
+            writer.close()
+            logger.info("Excel file " + filename + " exists and news have been added")
+
 
     except Exception as e:
         print(e)
@@ -56,7 +67,7 @@ class HtmlOutputer(object):
         self.datas.append(data)
 
     # 按照 excel 格式输出
-    def output_excel(self, root_url):
+    def output_excel(self):
         dict_list = []
         # construct the dict to a certain format
         try:
@@ -68,4 +79,4 @@ class HtmlOutputer(object):
         except Exception as e:
             print(e)
         print(dict_list)
-        export_excel(dict_list, root_url)
+        export_excel(dict_list)
