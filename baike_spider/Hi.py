@@ -28,8 +28,7 @@ config.read("./temp/cfg.ini")
 
 # 获取指定section中指定key的value
 # http://www.people.com.cn/
-# http://www.xinhuanet.com/
-# https://www.ifeng.com/
+
 # https://news.sina.com.cn/
 
 from apscheduler.schedulers.blocking import BlockingScheduler
