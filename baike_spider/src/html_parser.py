@@ -53,16 +53,19 @@ class HtmlParser(object):
         new_urls = set()
         count = int(config.get("crawler", "craw_url_num"))
         # 查找页面的 URL
-        links = soup.find_all('a')
-        for link in links:
-            count = count - 1
-            if count >= 0:
-                new_url = link['href']
-                # 将 new_url 按照 page_url 的格式拼接
-                # print(new_url)
-                new_url_join = parse.urljoin(page_url, new_url)
-                new_urls.add(new_url_join)
-                logger.debug("New added url: " + new_url_join)
+        try:
+            links = soup.find_all('a')
+            for link in links:
+                count = count - 1
+                if count >= 0:
+                    new_url = link['href']
+                    # 将 new_url 按照 page_url 的格式拼接
+                    # print(new_url)
+                    new_url_join = parse.urljoin(page_url, new_url)
+                    new_urls.add(new_url_join)
+                    logger.debug("New added url: " + new_url_join)
+        except Exception as e:
+            print(e)
 
         return new_urls
 
@@ -78,7 +81,7 @@ class HtmlParser(object):
         res_urls = {}
         res_news = {}
         # search for news link
-        summary_node = soup.find_all(href=re.compile(r'html'))
+        summary_node = soup.find_all(href=re.compile(r'htm'))
         #print(summary_node)
         if summary_node != []:
             for n in summary_node:
@@ -89,16 +92,17 @@ class HtmlParser(object):
                         # start crawling
                         logger.info("Start downloading url: " + n['href'])
                         html_cont = self.downloader.download(n['href'])
+
                         if html_cont == None:
                             logger.info("This url is NoneType, crawling skipped.")
                             print("This urls` html has NoneType Error, continue crawling")
                             continue
                         encoded_type = chardet.detect(html_cont)['encoding']
-                        print("type: " + encoded_type)
                         soup = BeautifulSoup(html_cont, 'html.parser', from_encoding=str(encoded_type))
                         try:
                             # search for content
                             print("Try to search: " + n['href'])
+                            print("Encoded type: " + encoded_type)
                             news_content = soup.find_all('p')
                             temp = get_content(news_content)
                             print(temp[0:300])

@@ -18,6 +18,8 @@ class HtmlDownloader(object):
         context = ssl._create_unverified_context()
         if url is None:
             raise ValueError('target url is None')
+        if url[0:2] == '//' and url[2:5] == 'www':
+            url = "http:"+url
 
         try:
             ua = UserAgent()

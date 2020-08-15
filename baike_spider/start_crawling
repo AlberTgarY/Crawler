@@ -30,8 +30,8 @@ def my_listener(event):
 if __name__ == "__main__":
     print("Awaiting...")
     scheduler = BlockingScheduler()
-    scheduler.add_job(func=Start, trigger='cron', hour="10，14，18，22", id='date_task')
-    # scheduler.add_job(func=Start, trigger='cron', hour=19, minute='*/6', id='date_task')
+    scheduler.add_job(func=Start, trigger='cron', hour="8,10,14,17,19,21,23", id='date_task')
+    # scheduler.add_job(func=Start, trigger='cron', hour=15, minute=22, second=50, id='date_task')
     scheduler.add_listener(my_listener, EVENT_JOB_EXECUTED | EVENT_JOB_ERROR)
     scheduler._logger = logger
     scheduler.start()
