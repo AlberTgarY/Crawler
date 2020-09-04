@@ -36,7 +36,7 @@ def export_excel(export):
             logger.info("Excel file " + filename + " created")
 
         else:
-            writer = pd.ExcelWriter(filename, mode='a')
+            writer = pd.ExcelWriter(filename, mode='a', engine='openpyxl')
             writer.book = openpyxl.load_workbook(filename)
             # 替换空单元格
             pf.fillna(' ', inplace=True)
