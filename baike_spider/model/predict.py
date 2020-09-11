@@ -49,7 +49,7 @@ class CnnModel:
 
 if __name__ == '__main__':
     cnn_model = CnnModel()
-    test_demo = ['英镑涨近百点 杜高斯贝：欧元、英镑、日元及黄金技术分析',
-                 '热火vs骑士前瞻：皇帝回乡二番战 东部次席唾手可得新浪体育讯北京时间3月30日7:00']
+    test_demo = ['战疫8个月确诊仅3000多 “佛系性格”助泰国抗疫？',
+                 '美国开学缺500万台电脑：面临长达数月的短缺和推迟供货']
     for i in test_demo:
         print(cnn_model.predict(i))
