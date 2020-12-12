@@ -20,7 +20,7 @@ def export_excel(export):
         EXCEL_PATH = str(config.get("path", "excel_path"))
         filename = EXCEL_PATH+time+".xlsx"
         # 指定字段顺序
-        order = ['URL', 'Website', 'Type', 'Title', 'Value']
+        order = ['URL', 'Website', 'Title', 'Value']
         # 将字典列表转换为DataFrame
         pf = pd.DataFrame(list(export))
         pf = pf[order]
@@ -72,9 +72,9 @@ class HtmlOutputer(object):
         # construct the dict to a certain format
         try:
             for data in self.datas:
-                for Type, key, value, website in zip(data['type'].values(), data['summary'].keys(),
+                for key, value, website in zip(data['summary'].keys(),
                                                      data['summary'].values(), data['website'].values()):
-                    temp_dict = {'URL': data['url'], "Website": website, "Type": Type, "Title": key, "Value": value}
+                    temp_dict = {'URL': data['url'], "Website": website, "Title": key, "Value": value}
                     dict_list.append(temp_dict)
         except Exception as e:
             print(e)

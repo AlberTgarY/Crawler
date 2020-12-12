@@ -17,9 +17,9 @@ def get_log():
         debug_handler = logging.handlers.TimedRotatingFileHandler('Log/Debug_LOG.log', when='midnight', interval=1, backupCount=7,
                                                             atTime=datetime.time(0, 0, 0, 0))
         debug_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
-        debug_handler.setLevel(logging.INFO)
+        logger.setLevel(logging.INFO)
         # set level
-        logger.setLevel(logging.DEBUG)
+        debug_handler.setLevel(logging.DEBUG)
         # set handler
         logger.addHandler(handler)
         logger.addHandler(debug_handler)

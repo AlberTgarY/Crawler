@@ -8,37 +8,11 @@ from bs4 import BeautifulSoup
 import html_downloader
 import configparser
 from Logger import get_log
-from stopwords import stopword
-import jieba
 
 # 读取配置文件
 config = configparser.RawConfigParser()
 config.read("./temp/cfg.ini")
 logger = get_log()
-predict = {
-    "体育": ["体育", "足球", "运动", "赛跑", "NBA", "比赛", "胜利", "领先", "赛季", "球队", "开局", "巨星",
-           "球星", "退役", "连胜", "失败", "输", "绝杀", "篮球", "奥运会", "mvp", "进球", "国家队", "跳水"
-            , "国家队", "比赛", "得分", "运动员", "VS", "罚下", "禁区", "突破", "裁判", "射门", "联赛"],
-    "时政": ["时政", "紧急", "大陆", "部长", "外交", "关系", "时候", "局势", "挑战", "世界", "问题", "总统", "当地", "经济", "军队"
-            , "基地", "发言人", "省长", "晋升", "职务", "会议", "人大", "书记", "组织", "威胁", "环球", "沟通", "谈判", "局长"
-            , "部长", "科长", "政策", "省份", "国家队", "调查", "实地", "走访", "政治", "贸易", "政府", "主任", "市长", "外交"
-            , "媒体", "国务卿", "两岸", "台湾", "香港", "讲话", "总理", "新冠", "新冠肺炎", "肺炎", "疫苗", "疫情", "试剂"],
-    "军事": [ "演习", "军事", "军舰", "士兵", "交火", "武装", "战地", "战场", "导弹", "潜艇", "航母", "战斗机", "轰炸机", "坦克"
-            , "南海", "海军", "陆军", "空军", "火箭", "调查", "发射", "技术", "武器", "调查", "无人机", "喷气", "战机", "战舰"
-            , "坠毁", "摧毁", "先进", "国防", "军队", "舰队", "解放军", "将军", "开战", "侦察机", "上空"],
-    "财经": ["集团", "股市", "涨", "跌", "金融", "指数", "收入", "幅度", "季度", "财报", "美元", "亿元", "富豪", "亿万"
-            , "市场", "收入", "新高", "市值", "人民币", "欧元", "货币", "英镑", "克朗", "销售", "财", "资产", "身价", "企业"
-            , "证券", "交易", "利率", "银行", "利息", "贷款", "理财", "投资", "基金", "借贷", "美股", "A股", "套现", "现金"],
-    "娱乐": ["娱乐", "鹿晗", "郑爽", "杨颖", "开机", "电视剧", "电影", "明星", "当红", "艺人", "流量", "综艺", "节目", "演技"
-            , "饰演", "偶像", "歌唱", "直播", "应援", "爆红", "热门", "围观", "粉丝", "影视", "导演", "艺术", "人设", "跳舞"
-            , "舞蹈", "视频", "网红", "舞蹈", "婚礼", "结婚", "舞蹈", "复出", "试镜"],
-    "科技":["科技", "进展", "领域", "最新", "应用", "课题", "激光", "半导", "视频", "手机", "平板", "电脑", "电子", "研究"
-            , "基因", "遗传", "系统", "预测", "视频", "识别", "生物", "物理", "中科院", "视频", "科学", "小组", "观测",
-            "通讯", "处理器", "显卡", "CPU", "计算", "信息"]
-
-}
-
-
 
 
 def compare(url, file_name):
@@ -58,28 +32,11 @@ def get_content(news_content):
     raise ValueError('content is None')
 
 
-def predict_type(news_content):
-    Type = "未知"
-    stopwords = stopword()
-    words_list = stopwords.Word_cut_list(news_content)
-    print(words_list)
-    frequency_dict = {"体育": 0, "时政": 0, "娱乐": 0, "财经": 0, "军事": 0, "科技": 0}
-    for word in words_list:
-        for TYPE, keyword_list in zip(predict.keys(), predict.values()):
-            if word in keyword_list:
-                frequency_dict[TYPE] = frequency_dict[TYPE]+1
-    print(frequency_dict)
-    temp_type = max(frequency_dict, key=frequency_dict.get)
-    if(frequency_dict[temp_type] == 0):
-        return Type
-    else:
-        Type = temp_type
-        return Type
-
 class HtmlParser(object):
 
     # Find the all indexes at the first search
-    def _get_all_index(self, page_url, soup):
+    @staticmethod
+    def _get_all_index(page_url, soup):
 
         new_urls = set()
         # 查找页面的 URL
@@ -93,7 +50,8 @@ class HtmlParser(object):
         return new_urls
 
     # 获取页面中所有的 URL
-    def _get_new_urls(self, page_url, soup):
+    @staticmethod
+    def _get_new_urls(page_url, soup):
 
         new_urls = set()
         count = int(config.get("crawler", "craw_url_num"))
@@ -125,7 +83,6 @@ class HtmlParser(object):
         # contain all news in current page
         res_urls = {}
         res_news = {}
-        res_type = {}
         # search for news link
         summary_node = soup.find_all(href=re.compile(r'htm'))
         #print(summary_node)
@@ -151,13 +108,13 @@ class HtmlParser(object):
                             print("Encoded type: " + encoded_type)
                             news_content = soup.find_all('p')
                             temp = get_content(news_content)
-                            print(temp[0:300])
+                            length = int(config.get("crawler", "craw_data_length"))
+                            print(temp[0:length])
                             logger.debug("Found content : " + temp[0:30] + "...")
                             # brief description
                             title = n.get_text().replace('\n', '')
-                            res_news[title] = temp[0:300]
+                            res_news[title] = temp[0:length]
                             res_urls[title] = n['href']
-                            res_type[title] = predict_type(temp[0:300])
                         except ValueError as e:
                             logger.debug("Got a ValueError: " + str(e))
                             print(e)
@@ -166,17 +123,14 @@ class HtmlParser(object):
                         finally:
                             res_data['summary'] = res_news
                             res_data['website'] = res_urls
-                            res_data['type'] = res_type
                             print("res_news size : " + str(len(res_data['summary'])))
                     else:
                         logger.info(n['href'] + " has HTTP ERROR")
                         # find the website in the history
                         res_news[n['href']] = "HTTP ERROR"
                         res_urls[n['href']] = n['href']
-                        res_type[n['href']] = "NONE"
                         res_data['summary'] = res_news
                         res_data['website'] = res_urls
-                        res_data['type'] = res_type
                         print("This url is invalid: " + n['href'])
                         # print("res_news size : " + str(len(res_data['summary'])))
                         continue
@@ -184,10 +138,8 @@ class HtmlParser(object):
             logger.info("root url: "+ page_url + " has NO CONTENT")
             res_news[page_url] = "NO CONTENT"
             res_urls[page_url] = page_url
-            res_type[page_url] = "NONE"
             res_data['summary'] = res_news
             res_data['website'] = res_urls
-            res_data['type'] = res_type
         return res_data
 
     # 解析网页获取 new_urls 与 new_data
