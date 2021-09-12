@@ -4,11 +4,17 @@ import configparser
 from urllib import request
 from fake_useragent import UserAgent
 from Logger import get_log
+import os
 
 # 读取配置文件
 config = configparser.RawConfigParser()
 config.read("./temp/cfg.ini")
 INVALID_URL_TXT_PATH = str(config.get("path", "txt_path"))
+
+def get_header():
+    location = os.getcwd() + '/fake_useragent.json'
+    ua = UserAgent(path=location)
+    return ua.random
 
 class HtmlDownloader(object):
 
@@ -24,7 +30,7 @@ class HtmlDownloader(object):
         try:
             ua = UserAgent()
             # fake headers
-            headers = {"User-Agent": ua.random}
+            headers = {"User-Agent":  get_header()}
             # request website
             r = request.Request(url=url, headers=headers)
             # r1 = requests.get(url=url, headers=headers, timeout=15)
